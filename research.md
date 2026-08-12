@@ -7,16 +7,17 @@ permalink: /research/
 <h1>Research</h1>
 <p class="page-intro">My research connects fundamental physics with practical challenges in distributed sensing: how to synchronise, calibrate, model, and coherently combine signals from many instruments.</p>
 
-<figure class="research-cover">
-  <img src="{{ site.baseurl }}/assets/images/thesis-cover.webp" alt="Cover artwork for In Phase With the Cosmos">
-  <figcaption>Thesis cover artwork for <em>In Phase With the Cosmos</em>.</figcaption>
-</figure>
-
-<section class="hero">
-  <p class="eyebrow">DOCTORAL RESEARCH</p>
-  <h1>In Phase With the Cosmos</h1>
-  <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
-  <p>Doctoral thesis completed and approved for defence. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+<section class="research-feature">
+  <figure class="research-cover">
+    <img src="{{ site.baseurl }}/assets/images/thesis-cover.webp" alt="Cover artwork for In Phase With the Cosmos">
+    <figcaption>Thesis cover artwork for <em>In Phase With the Cosmos</em>.</figcaption>
+  </figure>
+  <div class="hero research-hero">
+    <p class="eyebrow">DOCTORAL RESEARCH</p>
+    <h2>In Phase With the Cosmos</h2>
+    <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
+    <p>Doctoral thesis completed and approved for defence. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+  </div>
 </section>
 
 <section class="section">
