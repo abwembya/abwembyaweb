@@ -128,12 +128,15 @@ body.dark .level-bar { background: #30424d; }
 .profile-hero-content { display: flex; flex-direction: column; }
 .social-links { display: flex; flex-wrap: wrap; gap: .55rem; padding: .9rem 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: 0 0 .8rem .8rem; }
 .social-links a { display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .7rem; border-radius: 2rem; background: var(--surface-soft); font-weight: 700; text-decoration: none; }
-.research-cover { float: right; width: min(40%, 300px); margin: 0 0 1.5rem 1.5rem; }
+.research-feature { display: grid; grid-template-columns: minmax(220px, 290px) 1fr; gap: 1.5rem; align-items: stretch; margin: 0 0 2rem; }
+.research-cover { width: 100%; margin: 0; display: flex; flex-direction: column; }
 .research-cover img { width: 100%; border-radius: .75rem; box-shadow: var(--shadow); }
+.research-hero { margin: 0; min-height: 100%; display: flex; flex-direction: column; justify-content: center; }
+.research-hero h2 { margin-top: 0; color: #fff; font-size: clamp(2rem, 4vw, 3rem); }
 .research-cover figcaption, .visual-note { margin-top: .55rem; color: var(--muted); font-size: .9rem; }
 .visual-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0 .5rem; }
 .visual-strip img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: .75rem; box-shadow: var(--shadow); }
-@media (max-width: 700px) { .profile-hero { grid-template-columns: 1fr; } .profile-portrait { height: 420px; min-height: 0; } .research-cover { float: none; width: 100%; margin: 0 0 1.5rem; } .visual-strip { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .profile-hero, .research-feature { grid-template-columns: 1fr; } .profile-portrait { height: 420px; min-height: 0; } .research-cover { max-width: 340px; margin: 0 auto; } .visual-strip { grid-template-columns: 1fr; } }
 @media print { .profile-portrait { max-height: 250px; min-height: 0; } .research-cover, .visual-strip { display: none; } }
 
 
@@ -141,10 +144,11 @@ body.dark .level-bar { background: #30424d; }
 .competency-intro { color: var(--muted); margin-bottom: 1.2rem; }
 .competency-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .competency-card { padding: 1.2rem; border: 1px solid var(--border); border-radius: .75rem; background: var(--surface); box-shadow: 0 5px 20px rgba(20,45,65,.05); }
-.competency-card h3 { margin: 0 0 .85rem; color: var(--brand-dark); font-size: 1.05rem; }
+.competency-card h3 { margin: 0 0 1rem; color: var(--brand-dark); font-size: 1.12rem; }
 .competency-card h3 i { color: var(--accent); margin-right: .35rem; }
-.competency-list { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; margin: 0; padding: 0; }
-.competency-list li { padding: .32rem .62rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--text); font-size: .88rem; }
+.competency-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem; list-style: none; margin: 0; padding: 0; }
+.competency-list li { position: relative; padding: .55rem .65rem .55rem 1.55rem; border: 1px solid var(--border); border-radius: .55rem; background: var(--surface-soft); color: var(--text); font-size: .96rem; line-height: 1.3; }
+.competency-list li::before { content: "✓"; position: absolute; left: .58rem; color: var(--accent); font-weight: 800; }
 .level-bar { display: none; }
 
 /* Calls to action */
@@ -187,10 +191,11 @@ body.dark .level-bar { background: #30424d; }
 
 .content-card, .competency-card { transition: transform .2s ease, box-shadow .2s ease; }
 .content-card:hover, .competency-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
-.tag { font-weight: 600; font-size: .8rem; opacity: .88; }
+.tag { font-weight: 600; font-size: .9rem; opacity: .95; }
 
 @media (max-width: 760px) {
   .competency-grid, .contact-grid { grid-template-columns: 1fr; }
+  .competency-list { grid-template-columns: 1fr; }
   .opportunity-cta, .footer-inner { align-items: flex-start; flex-direction: column; }
   .footer-links { justify-content: flex-start; }
   .slideshow, .slide { min-height: 420px; height: 420px; }

@@ -17,16 +17,16 @@ sidebar:
   languages:
     title: Languages
     info:
+      - idiom: English
+        level: Native · international working language
       - idiom: Bemba
         level: Native
       - idiom: Nyanja
         level: Native
-      - idiom: English
-        level: Fluent / professional
       - idiom: Russian
-        level: Working level
+        level: Professional working level
       - idiom: Dutch
-        level: Basic / developing
+        level: Developing
 
   interests:
     title: Focus Areas
@@ -50,7 +50,7 @@ education:
   info:
     - degree: Doctoral Research in High-Energy Physics
       university: Radboud University, Netherlands
-      time: 2021 – 2025
+      time: 2021 – 2026
       details: |
         Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. Doctoral thesis completed and approved for defence. Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
     - degree: MSc, Nuclear Physics and Technology
@@ -68,7 +68,7 @@ experiences:
   title: Selected Experience
   info:
     - role: Sensor Development, Calibration and Intelligent Data Processing
-      time: 2021 – 2025
+      time: 2021 – 2026
       company: Radboud University · Pierre Auger Collaboration
       details: |
         - Developed calibration and reconstruction workflows for a distributed 30–80 MHz radio-detector array.
