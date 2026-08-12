@@ -33,7 +33,7 @@ permalink: /projects/
 </div>
 
 <section class="section" style="margin-top:2rem">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-code-branch fa-stack-1x fa-inverse"></i></span>Working Principles</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-code-branch"></i></span>Working Principles</h2>
   <div class="card-grid">
     <article class="content-card"><h3>Traceable</h3><p>Explicit assumptions, versioned inputs, reproducible pipelines, and clear provenance from raw data to result.</p></article>
     <article class="content-card"><h3>Uncertainty-aware</h3><p>Calibration errors, model limitations, and confidence are treated as part of the result—not as afterthoughts.</p></article>

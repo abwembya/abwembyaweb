@@ -16,12 +16,12 @@ permalink: /research/
     <p class="eyebrow">DOCTORAL RESEARCH</p>
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
-    <p>Doctoral thesis completed and approved for defence. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+    <p>Doctoral thesis completed and approved for defence, expected at the end of September 2026. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
   </div>
 </section>
 
 <section class="section">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-wave-square fa-stack-1x fa-inverse"></i></span>Research Contributions</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-wave-square"></i></span>Research Contributions</h2>
   <div class="card-grid">
     <article class="content-card">
       <h3>Interferometric reconstruction</h3>
@@ -51,7 +51,7 @@ permalink: /research/
 </section>
 
 <section class="section">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-microscope fa-stack-1x fa-inverse"></i></span>Methods</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-microscope"></i></span>Methods</h2>
   <div class="tag-list">
     <span class="tag">Radio interferometry</span><span class="tag">Phase calibration</span>
     <span class="tag">Distributed timing</span><span class="tag">Antenna modelling</span>

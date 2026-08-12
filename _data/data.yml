@@ -39,11 +39,11 @@ sidebar:
 career-profile:
   title: Professional Profile
   summary: |
-    Physicist and data-focused researcher specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
+    Experimental physicist specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
 
-    My doctoral research at Radboud University, within the international Pierre Auger Collaboration, advanced radio-interferometric reconstruction of very inclined cosmic-ray air showers. The work combined precision timing validation, antenna-response studies, simulation, statistical analysis, and quality-control diagnostics across a large detector array.
+    My doctoral research within the international Pierre Auger Collaboration advanced radio-interferometric reconstruction of very inclined cosmic-ray air showers through timing validation, antenna-response studies, simulation, statistics, and array-wide quality control.
 
-    I am interested in research and industry roles where sensing, data, AI, and rigorous quantitative reasoning meet—particularly scientific instrumentation, remote sensing, radio systems, energy, climate, and responsible AI.
+    I am open to research and industry collaborations where sensing, scientific computing, AI, and rigorous quantitative reasoning meet.
 
 education:
   title: Education
@@ -52,7 +52,7 @@ education:
       university: Radboud University, Netherlands
       time: 2021 – 2026
       details: |
-        Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. Doctoral thesis completed and approved for defence. Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
+        Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. Doctoral thesis completed and approved for defence, expected at the end of September 2026. Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
     - degree: MSc, Nuclear Physics and Technology
       university: National Research Nuclear University MEPhI, Russia
       time: 2018 – 2021
