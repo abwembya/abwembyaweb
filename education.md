@@ -9,7 +9,7 @@ permalink: /education/
 {% include education.html %}
 
 <section class="section">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-certificate fa-stack-1x fa-inverse"></i></span>Selected Training</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-certificate"></i></span>Selected Training</h2>
   <div class="card-grid">
     <article class="content-card"><h3>Development in Africa with Radio Astronomy</h3><p>Training in radio astronomy, radio detection techniques, data analysis, and large-scale scientific instrumentation.</p></article>
     <article class="content-card"><h3>Machine Learning in Physics</h3><p>Machine-learning methods and their application to particle physics and astrophysical datasets.</p></article>
@@ -19,7 +19,7 @@ permalink: /education/
 </section>
 
 <section class="section">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-book fa-stack-1x fa-inverse"></i></span>Physics Foundation</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-book"></i></span>Physics Foundation</h2>
   <div class="tag-list">
     <span class="tag">Classical mechanics</span><span class="tag">Electromagnetism</span>
     <span class="tag">Quantum mechanics</span><span class="tag">Statistical physics</span>
