@@ -7,8 +7,8 @@ sidebar:
   tagline: Sensor Systems · Scientific Computing · AI & Data
   avatar:
 
-  email:
-  phone:
+  email: anthonybwembya@gmail.com
+  phone: "+31 6 8406 8779"
   website: https://abwembya.online/
   linkedin: anthony-bwembya
   github: abwembya
@@ -17,8 +17,16 @@ sidebar:
   languages:
     title: Languages
     info:
+      - idiom: Bemba
+        level: Native
+      - idiom: Nyanja
+        level: Native
       - idiom: English
-        level: Professional
+        level: Fluent / professional
+      - idiom: Russian
+        level: Working level
+      - idiom: Dutch
+        level: Basic / developing
 
   interests:
     title: Focus Areas
@@ -106,24 +114,26 @@ projects:
       category: ai
 
 skills:
-  title: Technical Capabilities
-  toolset:
-    - name: Python · Scientific data analysis
-      level: 95%
-    - name: RF signal processing · Interferometry
-      level: 92%
-    - name: Calibration · Timing synchronisation
-      level: 92%
-    - name: Statistical inference · Uncertainty analysis
-      level: 90%
-    - name: C++ · Reproducible pipelines
-      level: 82%
-    - name: Machine learning · Anomaly detection
-      level: 80%
-    - name: Detector simulation · CORSIKA/CoREAS
-      level: 82%
-    - name: Technical communication · Collaboration
-      level: 90%
+  title: Technical Competencies
+  groups:
+    - title: Scientific Programming & Data
+      icon: code
+      items: [Python, C++, Bash, SQL, NumPy, SciPy, Pandas, Matplotlib, Jupyter, Linux, Git, HPC / SLURM]
+    - title: Machine Learning & AI
+      icon: brain
+      items: [PyTorch, scikit-learn, Supervised learning, Unsupervised learning, Classification, Regression, Clustering, Feature engineering, Anomaly detection, Model validation, Responsible AI]
+    - title: Signal Processing & Reconstruction
+      icon: wave-square
+      items: [RF signal processing, Radio interferometry, Fourier analysis, Spectral analysis, Phase calibration, Timing synchronisation, Coherent reconstruction, Noise modelling, Statistical filtering, Optimisation]
+    - title: Sensors, Detectors & Instrumentation
+      icon: satellite-dish
+      items: [Antenna arrays, Detector calibration, LiDAR, Fluorescence telescopes, PMTs, Radiation detectors, VNA / AWG / DAC, RF/DC chains, DAQ systems, Laboratory and field validation]
+    - title: Modelling, Statistics & Quality
+      icon: chart-line
+      items: [Uncertainty propagation, Statistical inference, CORSIKA / CoREAS, GALPROP, Model-to-data comparison, Simulation-based validation, Automated quality control, Sensor diagnostics, Reproducible workflows]
+    - title: Collaboration & Delivery
+      icon: users
+      items: [Technical documentation, Scientific communication, Stakeholder engagement, International collaboration, Teaching and mentoring, Safety procedures, Field operations, Cross-functional problem solving]
 
 footer: >
   &copy; Anthony Bwembya.
