@@ -27,6 +27,7 @@ permalink: /projects/
     <h3>{{ project.title }}</h3>
     <p>{{ project.tagline }}</p>
     <span class="tag">{{ project.category | upcase }}</span>
+    {% if project.title == "AI-Assisted RFI Classification" %}<p class="project-status"><i class="fas fa-flask"></i> Research concept in development—not yet deployed.</p>{% endif %}
   </article>
 {% endfor %}
 </div>
