@@ -117,6 +117,22 @@ body.dark .content-card h3 { color: #f0f6f9; }
 body.dark .content-card h3 i { color: #58c8c4; }
 body.dark .level-bar { background: #30424d; }
 
+/* Keep the CV sidebar readable in dark mode */
+body.dark .site-header { background: #0e1820; }
+body.dark .sidebar-wrapper { background: #1d536d; color: #fff; }
+body.dark .sidebar-wrapper .profile-container { background: #102f43; }
+body.dark .sidebar-wrapper .name,
+body.dark .sidebar-wrapper .degree,
+body.dark .sidebar-wrapper .container-block-title,
+body.dark .sidebar-wrapper .contact-list,
+body.dark .sidebar-wrapper .languages-list,
+body.dark .sidebar-wrapper .interests-list { color: #fff; }
+body.dark .sidebar-wrapper .tagline,
+body.dark .sidebar-wrapper .education-container .meta,
+body.dark .sidebar-wrapper .education-container .time,
+body.dark .sidebar-wrapper .languages-container .lang-desc { color: #e3f1f6; opacity: 1; }
+body.dark .sidebar-wrapper a { color: #fff; text-decoration-color: rgba(255,255,255,.65); }
+
 /* Clear, high-contrast section icons */
 .main-wrapper .section-title {
   display: flex;
