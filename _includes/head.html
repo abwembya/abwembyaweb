@@ -10,10 +10,39 @@
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/anthony-bwembya-og.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Anthony Bwembya — Physics, sensing, AI and data">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Anthony Bwembya",
+    "url": "https://abwembya.online",
+    "image": "https://abwembya.online/assets/images/anthony-bwembya-portrait.webp",
+    "email": "mailto:anthonybwembya@gmail.com",
+    "telephone": "+31 6 8406 8779",
+    "jobTitle": "Physicist and Sensor-Data Specialist",
+    "alumniOf": [
+      {"@type": "CollegeOrUniversity", "name": "Radboud University"},
+      {"@type": "CollegeOrUniversity", "name": "National Research Nuclear University MEPhI"},
+      {"@type": "CollegeOrUniversity", "name": "University of Zambia"}
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/anthony-bwembya",
+      "https://www.researchgate.net/profile/Anthony-Bwembya",
+      "https://orcid.org/0000-0002-6995-5978",
+      "https://github.com/abwembya"
+    ],
+    "knowsAbout": ["Sensor calibration", "RF signal processing", "Radio interferometry", "Scientific computing", "Machine learning", "Detector instrumentation"]
+  }
+  </script>
 </head>
