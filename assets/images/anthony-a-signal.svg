@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">Anthony Bwembya signal logo</title>
+  <defs>
+    <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="#111111"/>
+  <path d="M16 6 L9 26 H13 L16 18 L19 26 H23 Z M14 20 L16 14 L18 20 Z" fill="#FFFFFF"/>
+  <path d="M8 18 C12 24 20 24 24 18" stroke="url(#sw)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
