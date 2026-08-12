@@ -7,6 +7,11 @@ permalink: /research/
 <h1>Research</h1>
 <p class="page-intro">My research connects fundamental physics with practical challenges in distributed sensing: how to synchronise, calibrate, model, and coherently combine signals from many instruments.</p>
 
+<figure class="research-cover">
+  <img src="{{ site.baseurl }}/assets/images/thesis-cover.webp" alt="Cover artwork for In Phase With the Cosmos">
+  <figcaption>Thesis cover artwork for <em>In Phase With the Cosmos</em>.</figcaption>
+</figure>
+
 <section class="hero">
   <p class="eyebrow">DOCTORAL RESEARCH</p>
   <h1>In Phase With the Cosmos</h1>

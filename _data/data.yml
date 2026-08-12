@@ -10,7 +10,7 @@ sidebar:
   email:
   phone:
   website: https://abwembya.online/
-  linkedin:
+  linkedin: anthony-bwembya
   github: abwembya
   pdf:
 
@@ -126,5 +126,4 @@ skills:
       level: 90%
 
 footer: >
-  CV of Anthony Bwembya. Theme design by
-  <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
+  &copy; Anthony Bwembya.

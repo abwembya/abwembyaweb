@@ -35,5 +35,7 @@ permalink: /publications/
   <div class="hero-actions">
     <a class="button-link" href="https://orcid.org/0000-0002-6995-5978" target="_blank" rel="noopener">ORCID</a>
     <a class="button-link" href="https://github.com/abwembya" target="_blank" rel="noopener">GitHub</a>
+    <a class="button-link" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="button-link" href="https://www.researchgate.net/profile/Anthony-Bwembya" target="_blank" rel="noopener">ResearchGate</a>
   </div>
 </section>
