@@ -78,7 +78,14 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   padding: 1.2rem; border: 1px solid var(--border); border-radius: .75rem;
   background: var(--surface); box-shadow: 0 5px 20px rgba(20,45,65,.05);
 }
-.content-card h3 { margin-top: 0; color: var(--brand-dark); }
+.content-card h3 {
+  margin: 0 0 .8rem;
+  color: var(--brand-dark);
+  font-size: 1.55rem;
+  line-height: 1.22;
+  font-weight: 750;
+  text-wrap: balance;
+}
 .tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin: .75rem 0; }
 .tag { padding: .28rem .6rem; border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .86rem; font-weight: 700; }
 .page-intro { margin-bottom: 2rem; font-size: 1.05rem; color: var(--muted); }
@@ -106,6 +113,8 @@ body.dark {
 body.dark .site-header { background: rgba(14,24,32,.96); }
 body.dark .main-wrapper, body.dark .content-card { color: var(--text); }
 body.dark .section-title, body.dark .job-title, body.dark .degree { color: var(--text); }
+body.dark .content-card h3 { color: #f0f6f9; }
+body.dark .content-card h3 i { color: #58c8c4; }
 body.dark .level-bar { background: #30424d; }
 
 /* Clear, high-contrast section icons */
@@ -166,6 +175,7 @@ body.dark .section-title .section-icon {
   .section-title .section-icon { flex-basis: 2.85rem; width: 2.85rem; height: 2.85rem; }
   .section-title .section-icon i { font-size: 1.52rem; }
   .summary { font-size: 1rem; line-height: 1.65; }
+  .content-card h3 { font-size: 1.32rem; }
 }
 @media print {
   body { background: #fff !important; color: #000 !important; }
