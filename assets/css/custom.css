@@ -115,7 +115,8 @@ body.dark .level-bar { background: #30424d; }
   line-height: 1.22;
   text-wrap: balance;
 }
-.section-title .fa-stack {
+.section-title .fa-stack,
+.section-title .section-icon {
   position: relative;
   flex: 0 0 2.65rem;
   width: 2.65rem;
@@ -130,7 +131,7 @@ body.dark .level-bar { background: #30424d; }
   font-size: 1rem;
   line-height: 1;
 }
-.section-title .fa-stack .fa-circle { display: none; }
+.section-title .fa-stack .fa-circle { display: none !important; }
 .section-title .fa-stack .fa-stack-1x {
   position: static;
   width: auto;
@@ -139,7 +140,9 @@ body.dark .level-bar { background: #30424d; }
   transform: none;
   text-align: center;
 }
-body.dark .section-title .fa-stack {
+.section-title .section-icon i { color: #fff; font-size: 1.15rem; line-height: 1; }
+body.dark .section-title .fa-stack,
+body.dark .section-title .section-icon {
   background: linear-gradient(145deg, #58b8df, #278f91);
   box-shadow: 0 5px 16px rgba(0, 0, 0, .35);
 }
@@ -153,7 +156,7 @@ body.dark .section-title .fa-stack {
   .card-grid { grid-template-columns: 1fr; }
   .wrapper { margin-top: 14px; }
   .main-wrapper .section-title { align-items: center; font-size: 1.55rem; gap: .8rem; }
-  .section-title .fa-stack { flex-basis: 3rem; width: 3rem; height: 3rem; border-radius: .8rem; font-size: 1.12rem; }
+  .section-title .fa-stack, .section-title .section-icon { flex-basis: 3rem; width: 3rem; height: 3rem; border-radius: .8rem; font-size: 1.12rem; }
 }
 @media print {
   body { background: #fff !important; color: #000 !important; }
