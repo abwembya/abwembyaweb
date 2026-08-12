@@ -29,10 +29,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   box-shadow: 0 3px 16px rgba(20,45,65,.06); backdrop-filter: blur(12px);
 }
 .site-brand {
-  flex: 0 0 42px; height: 42px; border-radius: 50%;
-  display: grid; place-items: center; background: var(--brand); color: #fff;
-  font-weight: 800; letter-spacing: .04em; text-decoration: none;
+  flex: 0 0 46px; width: 46px; height: 46px;
+  display: grid; place-items: center; text-decoration: none;
+  border-radius: 14px; transition: transform .2s ease, filter .2s ease;
 }
+.site-brand img { display: block; width: 46px; height: 46px; }
+.site-brand:hover { transform: translateY(-1px) scale(1.03); filter: drop-shadow(0 5px 8px rgba(20, 90, 125, .24)); }
 .site-nav { display: flex; flex: 1; gap: .25rem; }
 .site-nav a {
   padding: .55rem .65rem; border-radius: .45rem; color: var(--text);
