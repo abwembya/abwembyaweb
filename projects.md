@@ -15,6 +15,12 @@ permalink: /projects/
   <button class="filter-button" data-filter="impact">Impact</button>
 </div>
 
+<div class="visual-strip" aria-label="Art inspired by radio timing and distributed sensor arrays">
+  <img src="{{ site.baseurl }}/assets/images/timing-array-yellow.webp" alt="Abstract artwork inspired by timing stations and radio signals">
+  <img src="{{ site.baseurl }}/assets/images/timing-array-blue.webp" alt="Abstract artwork inspired by a distributed antenna array">
+</div>
+<p class="visual-note">Visual studies inspired by distributed timing, antennas, and coherent signals. Scientific plots will be added here as the portfolio develops.</p>
+
 <div class="card-grid">
 {% for project in site.data.data.projects.assignments %}
   <article class="content-card" data-category="{{ project.category }}">
