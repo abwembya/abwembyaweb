@@ -12,7 +12,7 @@ permalink: /publications/
     <article class="content-card">
       <h3>Doctoral thesis</h3>
       <p><strong>In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry</strong></p>
-      <p>Radboud University. Doctoral thesis completed and approved for defence.</p>
+      <p>Radboud University. Doctoral thesis completed and approved for defence, expected at the end of September 2026.</p>
     </article>
     <article class="content-card">
       <h3>ORCID record</h3>
@@ -31,7 +31,7 @@ permalink: /publications/
 </section>
 
 <section class="section">
-  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-link fa-stack-1x fa-inverse"></i></span>Research Profiles</h2>
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-link"></i></span>Research Profiles</h2>
   <div class="hero-actions">
     <a class="button-link" href="https://orcid.org/0000-0002-6995-5978" target="_blank" rel="noopener">ORCID</a>
     <a class="button-link" href="https://github.com/abwembya" target="_blank" rel="noopener">GitHub</a>
