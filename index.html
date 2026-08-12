@@ -1,24 +1,45 @@
 ---
 layout: default
+title: Home
+description: Anthony Bwembya — physicist specialising in sensor systems, RF signal processing, precision calibration, scientific computing, AI and data.
+permalink: /
 ---
-
+<section class="hero">
+  <p class="eyebrow">PHYSICS · SENSING · AI & DATA</p>
+  <h1>Turning complex measurements into reliable insight.</h1>
+  <p>I develop precision-calibrated sensor and data systems, from radio-interferometric reconstruction and detector simulation to uncertainty-aware analysis and intelligent diagnostics.</p>
+  <div class="hero-actions">
+    <a class="button-link" href="{{ site.baseurl }}/research/"><i class="fas fa-satellite-dish"></i> Explore my research</a>
+    <a class="button-link secondary" href="{{ site.baseurl }}/experience/"><i class="fas fa-briefcase"></i> View experience</a>
+  </div>
+</section>
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
-  {% include education.html %}
-{% endunless %}
-
-{% include experiences.html %}
-
-{% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
-
-{% include recommendations.html %}
+<section class="section">
+  <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-star fa-stack-1x fa-inverse"></i></span>Selected Highlights</h2>
+  <div class="card-grid">
+    <article class="content-card">
+      <h3>Precision radio sensing</h3>
+      <p>Phase calibration, distributed timing, antenna response, interferometry, and coherent signal reconstruction for a large detector array.</p>
+      <div class="tag-list"><span class="tag">30–80 MHz</span><span class="tag">Sub-ns validation</span><span class="tag">RF systems</span></div>
+    </article>
+    <article class="content-card">
+      <h3>Scientific computing</h3>
+      <p>Reproducible Python and C++ workflows for simulation, uncertainty analysis, quality control, optimisation, and large experimental datasets.</p>
+      <div class="tag-list"><span class="tag">Python</span><span class="tag">C++</span><span class="tag">Statistics</span></div>
+    </article>
+    <article class="content-card">
+      <h3>Instrumentation</h3>
+      <p>Hands-on work spanning radiation detectors, radio antennas, fluorescence telescopes, LiDAR, electronics, calibration, and field operations.</p>
+      <div class="tag-list"><span class="tag">Calibration</span><span class="tag">Detectors</span><span class="tag">Field systems</span></div>
+    </article>
+    <article class="content-card">
+      <h3>AI and intelligent diagnostics</h3>
+      <p>Machine-learning concepts for anomaly detection, RFI classification, probabilistic quality control, and explainable system monitoring.</p>
+      <div class="tag-list"><span class="tag">Machine learning</span><span class="tag">RFI</span><span class="tag">Responsible AI</span></div>
+    </article>
+  </div>
+</section>
 
 {% include skills.html %}
