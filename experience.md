@@ -6,6 +6,7 @@ permalink: /experience/
 ---
 <h1>Experience</h1>
 <p class="page-intro">Work across scientific research, detector systems, calibration, radiation protection, data processing, and international collaboration.</p>
+<p><a class="button-link cv-download-dark" href="{{ site.baseurl }}/assets/Anthony_Bwembya_CV.pdf" download><i class="fas fa-file-pdf"></i> Download CV (PDF)</a></p>
 {% include experiences.html %}
 <section class="section">
   <h2 class="section-title"><span class="fa-stack fa-xs"><i class="fas fa-circle fa-stack-2x"></i><i class="fas fa-users fa-stack-1x fa-inverse"></i></span>Collaboration & Leadership</h2>
