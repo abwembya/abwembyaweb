@@ -87,7 +87,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   text-wrap: balance;
 }
 .tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin: .75rem 0; }
-.tag { padding: .28rem .6rem; border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .86rem; font-weight: 700; }
+.tag { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .92rem; line-height: 1.2; font-weight: 700; }
 .page-intro { margin-bottom: 2rem; font-size: 1.05rem; color: var(--muted); }
 .filter-bar { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.5rem; }
 .filter-button {
@@ -115,6 +115,13 @@ body.dark .main-wrapper, body.dark .content-card { color: var(--text); }
 body.dark .section-title, body.dark .job-title, body.dark .degree { color: var(--text); }
 body.dark .content-card h3 { color: #f0f6f9; }
 body.dark .content-card h3 i { color: #58c8c4; }
+body.dark .tag {
+  color: #dff7ff;
+  background: #183241;
+  border-color: #426477;
+  opacity: 1;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04);
+}
 body.dark .level-bar { background: #30424d; }
 
 /* Keep the CV sidebar readable in dark mode */
@@ -276,7 +283,7 @@ body.dark .competency-card h3 i { color: #58c8c4; }
 
 .content-card, .competency-card { transition: transform .2s ease, box-shadow .2s ease; }
 .content-card:hover, .competency-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
-.tag { font-weight: 600; font-size: .9rem; opacity: .95; }
+.tag { font-weight: 650; opacity: 1; }
 
 @media (max-width: 760px) {
   .competency-grid, .contact-grid { grid-template-columns: 1fr; }
