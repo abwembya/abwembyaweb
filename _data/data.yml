@@ -19,14 +19,16 @@ sidebar:
     info:
       - idiom: English
         level: Native · international working language
-      - idiom: Bemba
-        level: Native
-      - idiom: Nyanja
-        level: Native
       - idiom: Russian
         level: Professional working level
       - idiom: Dutch
         level: Developing
+      - idiom: Bemba
+        level: Native
+      - idiom: Nyanja
+        level: Native
+      - idiom: Lozi
+        level: Native
 
   interests:
     title: Focus Areas
