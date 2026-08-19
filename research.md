@@ -3,6 +3,7 @@ layout: default
 title: Research
 description: Research in radio detection, interferometry, precision timing, antenna calibration and cosmic-ray mass composition.
 permalink: /research/
+sidebar_compact: true
 ---
 <h1>Research</h1>
 <p class="page-intro">My research connects fundamental physics with practical challenges in distributed sensing: how to synchronise, calibrate, model, and coherently combine signals from many instruments.</p>
@@ -16,7 +17,16 @@ permalink: /research/
     <p class="eyebrow">DOCTORAL RESEARCH</p>
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
-    <p>Doctoral thesis completed and approved for defence, expected at the end of September 2026. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+    <p>Doctoral thesis completed and approved for defence in 2026. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-chart-line"></i></span>Results at a Glance</h2>
+  <div class="results-grid">
+    <article class="result-card"><strong>≈0.83 ns</strong><span>Independent timing validation using a broadcast carrier under suitable signal conditions.</span></article>
+    <article class="result-card"><strong>≈800 events</strong><span>Timing-calibration study sample used to cross-check two independent phase-based methods.</span></article>
+    <article class="result-card"><strong>First reconstruction</strong><span>Successful radio-interferometric reconstruction of a very inclined AugerPrime event during the project.</span></article>
   </div>
 </section>
 
