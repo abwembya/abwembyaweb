@@ -12,13 +12,15 @@ sidebar:
   website: https://abwembya.online/
   linkedin: anthony-bwembya
   github: abwembya
+  researchgate: Anthony-Bwembya
+  orcid: 0000-0002-6995-5978
   pdf:
 
   languages:
     title: Languages
     info:
       - idiom: English
-        level: Native · international working language
+        level: Native · preferred and international working language
       - idiom: Russian
         level: Professional working level
       - idiom: Dutch
@@ -56,7 +58,7 @@ education:
       university: Radboud University, Netherlands
       time: 2021 – 2026
       details: |
-        Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. Doctoral thesis completed and approved for defence, expected at the end of September 2026. Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
+        Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. Doctoral thesis completed and approved for defence in 2026. Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
     - degree: MSc, Nuclear Physics and Technology
       university: National Research Nuclear University MEPhI, Russia
       time: 2018 – 2021
