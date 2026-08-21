@@ -12,15 +12,10 @@ permalink: /contact/
 
 <section class="section">
   <div class="contact-grid">
-    <a class="contact-card" href="mailto:anthonybwembya@gmail.com">
+    <a class="contact-card" href="mailto:awembya@duck.com">
       <i class="fas fa-envelope" aria-hidden="true"></i>
-      <span><strong>Email</strong><small>anthonybwembya@gmail.com</small></span>
-    </a>
-    <a class="contact-card" href="tel:+31684068779">
-      <i class="fas fa-phone" aria-hidden="true"></i>
-      <span><strong>Phone</strong><small>+31 6 8406 8779</small></span>
-    </a>
-    <a class="contact-card" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">
+      <span><strong>Email</strong><small>awembya@duck.com</small></span>
+    </a>    <a class="contact-card" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">
       <i class="fab fa-linkedin" aria-hidden="true"></i>
       <span><strong>LinkedIn</strong><small>Professional profile</small></span>
     </a>
