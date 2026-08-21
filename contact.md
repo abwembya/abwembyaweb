@@ -15,7 +15,8 @@ permalink: /contact/
     <a class="contact-card" href="mailto:awembya@duck.com">
       <i class="fas fa-envelope" aria-hidden="true"></i>
       <span><strong>Email</strong><small>awembya@duck.com</small></span>
-    </a>    <a class="contact-card" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">
+    </a>
+    <a class="contact-card" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">
       <i class="fab fa-linkedin" aria-hidden="true"></i>
       <span><strong>LinkedIn</strong><small>Professional profile</small></span>
     </a>
