@@ -7,6 +7,18 @@
   const siteHeader = document.querySelector('.site-header');
   const progressBar = document.querySelector('.page-progress span');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function savedTheme() {
+    try { return localStorage.getItem('cv-theme'); } catch (error) { return null; }
+  }
+
+  function applyTheme(theme) {
+    const dark = theme === 'dark' || (!theme && systemDark.matches);
+    root.classList.toggle('dark', dark);
+    root.style.colorScheme = dark ? 'dark' : 'light';
+    updateThemeIcon();
+  }
 
   function updateThemeIcon() {
     if (!themeToggle) return;
@@ -19,11 +31,19 @@
 
   if (themeToggle) {
     themeToggle.addEventListener('click', function () {
-      root.classList.toggle('dark');
-      const dark = root.classList.contains('dark');
-      root.style.colorScheme = dark ? 'dark' : 'light';
-      try { localStorage.setItem('cv-theme', dark ? 'dark' : 'light'); } catch (error) { /* Keep the visual toggle working. */ }
-      updateThemeIcon();
+      const theme = root.classList.contains('dark') ? 'light' : 'dark';
+      try { localStorage.setItem('cv-theme', theme); } catch (error) { /* Keep the visual toggle working. */ }
+      applyTheme(theme);
+    });
+  }
+
+  window.addEventListener('storage', function (event) {
+    if (event.key === 'cv-theme') applyTheme(event.newValue);
+  });
+
+  if (typeof systemDark.addEventListener === 'function') {
+    systemDark.addEventListener('change', function () {
+      if (!savedTheme()) applyTheme(null);
     });
   }
 
@@ -78,6 +98,7 @@
   if (backToTop) backToTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
 
   window.addEventListener('pageshow', function (event) {
+    applyTheme(savedTheme());
     if (event.persisted) updateScrollEffects();
   });
 
@@ -94,6 +115,7 @@
 
   document.addEventListener('visibilitychange', function () {
     root.classList.toggle('page-paused', document.hidden);
+    if (!document.hidden) applyTheme(savedTheme());
   });
 
   const slideshow = document.querySelector('.slideshow');
