@@ -23,6 +23,13 @@ body {
 }
 a { color: var(--brand); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.main-wrapper p { text-align: justify; text-justify: inter-word; }
+.main-wrapper .eyebrow,
+.main-wrapper .availability-status,
+.main-wrapper .project-status,
+.main-wrapper .verification-note,
+.main-wrapper .visual-note,
+.main-wrapper figcaption { text-align: left; }
 
 .skip-link {
   position: fixed; left: 1rem; top: -5rem; z-index: 1000;
@@ -307,6 +314,7 @@ html.dark body .section-title .section-icon {
   .content-card h3 { font-size: 1.32rem; }
   .methods-section .section-title { font-size: 1.55rem; }
   .methods-section .tag { padding: .55rem .82rem; font-size: .98rem; }
+  .main-wrapper p { hyphens: auto; }
 }
 @media print {
   body { background: #fff !important; color: #000 !important; }
