@@ -81,30 +81,6 @@
     if (event.persisted) updateScrollEffects();
   });
 
-  const revealItems = Array.from(document.querySelectorAll(
-    '.main-wrapper > section, .content-card, .competency-card, .publication-item, .result-card, .timeline-list article, .contact-card, .case-study-grid > div, .research-cover'
-  ));
-
-  revealItems.forEach(function (item, index) {
-    item.classList.add('reveal-item');
-    item.style.setProperty('--reveal-delay', Math.min(index % 4, 3) * 70 + 'ms');
-  });
-
-  if (!reducedMotion.matches && 'IntersectionObserver' in window) {
-    document.documentElement.classList.add('motion-ready');
-    const revealObserver = new IntersectionObserver(function (entries, observer) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12, rootMargin: '0px 0px -36px' });
-    revealItems.forEach(function (item) { revealObserver.observe(item); });
-  } else {
-    revealItems.forEach(function (item) { item.classList.add('is-visible'); });
-  }
-
   if (!reducedMotion.matches && window.matchMedia('(pointer: fine)').matches) {
     document.querySelectorAll('.content-card, .competency-card, .contact-card, .publication-item').forEach(function (card) {
       card.classList.add('interactive-card');
@@ -115,6 +91,10 @@
       });
     });
   }
+
+  document.addEventListener('visibilitychange', function () {
+    root.classList.toggle('page-paused', document.hidden);
+  });
 
   const slideshow = document.querySelector('.slideshow');
   if (slideshow) {
