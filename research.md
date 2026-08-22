@@ -60,7 +60,7 @@ sidebar_compact: true
   </div>
 </section>
 
-<section class="section">
+<section class="section methods-section">
   <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-microscope"></i></span>Methods</h2>
   <div class="tag-list">
     <span class="tag">Radio interferometry</span><span class="tag">Phase calibration</span>
