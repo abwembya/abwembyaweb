@@ -89,6 +89,20 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   font-weight: 750;
   text-wrap: balance;
 }
+.collaboration-title a {
+  color: inherit;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: .08em;
+  text-underline-offset: .16em;
+}
+.collaboration-title a:hover { color: var(--brand); }
+.collaboration-title a::after {
+  content: "\\2197";
+  display: inline-block;
+  margin-left: .22em;
+  font-size: .62em;
+  vertical-align: .2em;
+}
 .tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin: .75rem 0; }
 .tag { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .92rem; line-height: 1.2; font-weight: 700; }
 .page-intro { margin-bottom: 2rem; font-size: 1.05rem; color: var(--muted); }
