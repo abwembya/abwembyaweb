@@ -69,25 +69,15 @@ permalink: /
   </div>
 </section>
 
-{% assign skills = site.data.data.skills %}
-{% if skills %}
-<section class="skills-section section" id="competencies">
-  <h2 class="section-title">
-    <span class="section-icon" aria-hidden="true"><i class="fas fa-tools"></i></span>
-    {{ skills.title }}
-  </h2>
-  <p class="competency-intro">Grouped by the work I can perform rather than subjective percentage scores.</p>
-  <div class="competency-grid">
-    {% for group in skills.groups %}
-    <article class="competency-card">
-      <h3><i class="fas fa-{{ group.icon }}" aria-hidden="true"></i> {{ group.title }}</h3>
-      <ul class="competency-list">
-        {% for item in group.items %}
-        <li>{{ item }}</li>
-        {% endfor %}
-      </ul>
-    </article>
-    {% endfor %}
+<section class="opportunity-cta homepage-cta">
+  <div>
+    <p class="eyebrow">EXPLORE THE FULL PROFILE</p>
+    <h2>See the experience and research behind the highlights.</h2>
+    <p>Review my professional experience, research contributions, or download the complete CV for the full technical competency inventory.</p>
+  </div>
+  <div class="hero-actions">
+    <a class="button-link" href="{{ site.baseurl }}/experience/"><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</a>
+    <a class="button-link secondary" href="{{ site.baseurl }}/research/"><i class="fas fa-microscope" aria-hidden="true"></i> Research</a>
+    <a class="button-link secondary" href="{{ site.baseurl }}/assets/Anthony_Bwembya_CV.pdf" download><i class="fas fa-file-pdf" aria-hidden="true"></i> Full CV</a>
   </div>
 </section>
-{% endif %}
