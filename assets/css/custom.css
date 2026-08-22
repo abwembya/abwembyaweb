@@ -20,6 +20,8 @@ body {
     radial-gradient(circle at 92% 24%, rgba(36, 82, 122, .10), transparent 27rem),
     var(--surface-soft);
   color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
 }
 a { color: var(--brand); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
@@ -88,7 +90,16 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .main-wrapper { background: var(--surface); }
 .sidebar-wrapper { background: var(--brand); }
 .sidebar-wrapper .profile-container { background: var(--brand-dark); }
-.sidebar-wrapper .tagline { max-width: 235px; margin-left: auto; margin-right: auto; font-size: .92rem; line-height: 1.42; color: rgba(255,255,255,.82); }
+.sidebar-wrapper .tagline {
+  max-width: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(255,255,255,.96);
+  font-size: 1.08rem;
+  font-weight: 550;
+  line-height: 1.55;
+  letter-spacing: .01em;
+}
 .sidebar-wrapper a { color: #fff; }
 .sidebar-wrapper .container-block-title { color: #fff; }
 .sidebar-wrapper .education-container .item, .sidebar-wrapper .interests-container .item { margin-bottom: 1rem; }
@@ -168,12 +179,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
   vertical-align: .2em;
 }
 .tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin: .75rem 0; }
-.tag { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .92rem; line-height: 1.2; font-weight: 700; }
+.tag { padding: .54rem .86rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: 1rem; line-height: 1.25; font-weight: 700; }
 .methods-section .section-title { font-size: 1.75rem; }
 .methods-section .section-title .section-icon { flex-basis: 3.15rem; width: 3.15rem; height: 3.15rem; }
 .methods-section .section-title .section-icon i { font-size: 1.62rem; }
 .methods-section .tag-list { gap: .65rem; margin-top: 1rem; }
-.methods-section .tag { padding: .58rem .92rem; font-size: 1.03rem; }
+.methods-section .tag { padding: .62rem .98rem; font-size: 1.08rem; }
 .page-intro { margin-bottom: 2rem; font-size: 1.05rem; color: var(--muted); }
 .filter-bar { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.5rem; }
 .filter-button {
@@ -313,8 +324,10 @@ html.dark body .section-title .section-icon {
   .summary { font-size: 1rem; line-height: 1.65; }
   .content-card h3 { font-size: 1.32rem; }
   .methods-section .section-title { font-size: 1.55rem; }
-  .methods-section .tag { padding: .55rem .82rem; font-size: .98rem; }
+  .tag { padding: .52rem .8rem; font-size: .98rem; }
+  .methods-section .tag { padding: .56rem .86rem; font-size: 1.02rem; }
   .main-wrapper p { hyphens: auto; }
+  .sidebar-wrapper .tagline { max-width: 300px; font-size: 1.12rem; line-height: 1.58; }
 }
 @media print {
   body { background: #fff !important; color: #000 !important; }
@@ -402,7 +415,7 @@ html.dark body .competency-card h3 i { color: #58c8c4; }
 
 .content-card, .competency-card, .publication-item { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
 .content-card:hover, .competency-card:hover, .publication-item:hover { transform: translateY(-4px); border-color: rgba(58, 166, 160, .58); box-shadow: var(--shadow); }
-.tag { font-weight: 650; opacity: 1; }
+.tag { font-weight: 700; opacity: 1; }
 
 @keyframes heroGradient {
   0%, 100% { background-position: 0% 50%; }
