@@ -1,5 +1,5 @@
 (function () {
-  const body = document.body;
+  const root = document.documentElement;
   const nav = document.getElementById('site-navigation');
   const navToggle = document.querySelector('.nav-toggle');
   const themeToggle = document.getElementById('themeToggle');
@@ -8,15 +8,10 @@
   const progressBar = document.querySelector('.page-progress span');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  const savedTheme = localStorage.getItem('cv-theme');
-  if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-    body.classList.add('dark');
-  }
-
   function updateThemeIcon() {
     if (!themeToggle) return;
     const icon = themeToggle.querySelector('i');
-    const dark = body.classList.contains('dark');
+    const dark = root.classList.contains('dark');
     icon.className = dark ? 'fas fa-sun' : 'fas fa-moon';
     themeToggle.setAttribute('aria-label', dark ? 'Use light mode' : 'Use dark mode');
   }
@@ -24,8 +19,10 @@
 
   if (themeToggle) {
     themeToggle.addEventListener('click', function () {
-      body.classList.toggle('dark');
-      localStorage.setItem('cv-theme', body.classList.contains('dark') ? 'dark' : 'light');
+      root.classList.toggle('dark');
+      const dark = root.classList.contains('dark');
+      root.style.colorScheme = dark ? 'dark' : 'light';
+      try { localStorage.setItem('cv-theme', dark ? 'dark' : 'light'); } catch (error) { /* Keep the visual toggle working. */ }
       updateThemeIcon();
     });
   }
@@ -79,6 +76,10 @@
   }, { passive: true });
   updateScrollEffects();
   if (backToTop) backToTop.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  window.addEventListener('pageshow', function (event) {
+    if (event.persisted) updateScrollEffects();
+  });
 
   const revealItems = Array.from(document.querySelectorAll(
     '.main-wrapper > section, .content-card, .competency-card, .publication-item, .result-card, .timeline-list article, .contact-card, .case-study-grid > div, .research-cover'

@@ -1,6 +1,19 @@
 <head>
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta charset="utf-8">
+  <script>
+    (function () {
+      var dark = false;
+      try {
+        var savedTheme = localStorage.getItem('cv-theme');
+        dark = savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      } catch (error) {
+        dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      }
+      if (dark) document.documentElement.classList.add('dark');
+      document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+    })();
+  </script>
   {% if site.chrome_mobile_color %}<meta name="theme-color" content="{{ site.chrome_mobile_color }}">{% endif %}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +35,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css?v=20260822-1">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css?v=20260822-2">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
