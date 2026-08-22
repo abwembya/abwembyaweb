@@ -6,7 +6,30 @@ permalink: /education/
 ---
 <h1>Education & Training</h1>
 <p class="page-intro">A physics foundation extending from fundamental theory to computation, instrumentation, radiation measurement, radio detection, and machine learning.</p>
-{% include education.html %}
+
+{% assign education = site.data.data.education %}
+{% if education %}
+<section class="section educations-section">
+  <h2 class="section-title">
+    <span class="section-icon" aria-hidden="true"><i class="fas fa-graduation-cap"></i></span>
+    {{ education.title }}
+  </h2>
+
+  {% for graduation in education.info %}
+  <div class="item">
+    <div class="meta">
+      <h3 class="degree">{{ graduation.degree }}</h3>
+      <div class="university">{{ graduation.university }}</div>
+    </div>
+    {% if graduation.details %}
+    <div class="details">
+      {{ graduation.details | markdownify }}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
 
 <section class="section">
   <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-certificate"></i></span>Selected Training</h2>
