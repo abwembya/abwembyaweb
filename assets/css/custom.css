@@ -23,6 +23,13 @@ body {
 }
 a { color: var(--brand); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.main-wrapper p { text-align: justify; text-justify: inter-word; }
+.main-wrapper .eyebrow,
+.main-wrapper .availability-status,
+.main-wrapper .project-status,
+.main-wrapper .verification-note,
+.main-wrapper .visual-note,
+.main-wrapper figcaption { text-align: left; }
 
 .skip-link {
   position: fixed; left: 1rem; top: -5rem; z-index: 1000;
@@ -162,6 +169,11 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 }
 .tag-list { display: flex; flex-wrap: wrap; gap: .45rem; margin: .75rem 0; }
 .tag { padding: .42rem .72rem; border: 1px solid var(--border); border-radius: 2rem; background: var(--surface-soft); color: var(--brand-dark); font-size: .92rem; line-height: 1.2; font-weight: 700; }
+.methods-section .section-title { font-size: 1.75rem; }
+.methods-section .section-title .section-icon { flex-basis: 3.15rem; width: 3.15rem; height: 3.15rem; }
+.methods-section .section-title .section-icon i { font-size: 1.62rem; }
+.methods-section .tag-list { gap: .65rem; margin-top: 1rem; }
+.methods-section .tag { padding: .58rem .92rem; font-size: 1.03rem; }
 .page-intro { margin-bottom: 2rem; font-size: 1.05rem; color: var(--muted); }
 .filter-bar { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.5rem; }
 .filter-button {
@@ -300,6 +312,9 @@ html.dark body .section-title .section-icon {
   .section-title .section-icon i { font-size: 1.52rem; }
   .summary { font-size: 1rem; line-height: 1.65; }
   .content-card h3 { font-size: 1.32rem; }
+  .methods-section .section-title { font-size: 1.55rem; }
+  .methods-section .tag { padding: .55rem .82rem; font-size: .98rem; }
+  .main-wrapper p { hyphens: auto; }
 }
 @media print {
   body { background: #fff !important; color: #000 !important; }
