@@ -28,7 +28,7 @@ sidebar_compact: true
     <article class="publication-item">
       <h3>Third Place — Black in Physics 2022 Three Minute Thesis Competition</h3>
       <p><em>Black in Physics Week</em> · 28 October 2022</p>
-      <p>Recognised for communicating my doctoral research in a concise three-minute presentation. The award included a US$150 prize.</p>
+      <p>Recognised for communicating my doctoral research in a concise three-minute presentation.</p>
       <a href="https://www.blackinphysics.org/events/3-minute-thesis-competition/" target="_blank" rel="noopener">Official competition page</a>
     </article>
   </div>
