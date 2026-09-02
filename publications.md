@@ -50,7 +50,7 @@ sidebar_compact: true
   <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-book"></i></span>Reports &amp; Educational Outputs</h2>
   <div class="research-feature">
     <figure class="research-cover">
-      <img src="{{ site.baseurl }}/assets/images/uk-study-trip-report-2024.jpg" alt="Cover of the Travel Report: Study Trip United Kingdom, April 24th to May 12th 2024">
+      <img src="{{ site.baseurl }}/assets/images/uk-study-trip-report-2024-scan.jpg" alt="Cover of the Travel Report: Study Trip United Kingdom, April 24th to May 12th 2024">
       <figcaption>Collective report by the 2024 S.V. Marie Curie study-trip participants.</figcaption>
     </figure>
     <div class="hero research-hero">
