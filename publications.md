@@ -6,7 +6,7 @@ permalink: /publications/
 sidebar_compact: true
 ---
 <h1>Publications & Outputs</h1>
-<p class="page-intro">Selected lead and collaboration outputs in cosmic-ray radio detection, calibration, interferometry, and scientific instrumentation. Full collaboration records are available through ORCID, ResearchGate and INSPIRE.</p>
+<p class="page-intro">Selected lead and collaboration outputs in cosmic-ray radio detection, calibration, interferometry, scientific instrumentation, and physics education. Full collaboration records are available through ORCID, ResearchGate and INSPIRE.</p>
 
 <section class="section">
   <div class="card-grid">
@@ -29,6 +29,27 @@ sidebar_compact: true
       <h3>Collaboration contributions</h3>
       <p>Analysis notes, calibration studies, detector diagnostics, workshops, and technical review contributions within the Pierre Auger Collaboration.</p>
     </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-book"></i></span>Reports &amp; Educational Outputs</h2>
+  <div class="research-feature">
+    <figure class="research-cover">
+      <img src="{{ site.baseurl }}/assets/images/uk-study-trip-report-2024.jpg" alt="Cover of the Travel Report: Study Trip United Kingdom, April 24th to May 12th 2024">
+      <figcaption>Collective report by the 2024 S.V. Marie Curie study-trip participants.</figcaption>
+    </figure>
+    <div class="hero research-hero">
+      <p class="eyebrow">SCIENTIFIC SUPERVISION · 2024</p>
+      <h2>Travel Report: Study Trip United Kingdom</h2>
+      <p><em>24 April–12 May 2024</em></p>
+      <p>A collectively authored account of a three-week physics study tour organised by Stichting Marie Curie Reizen for Radboud University Physics and Astronomy students.</p>
+      <p><strong>My role:</strong> Scientific supervisor for the Boulby Underground Laboratory and Manchester leg, including visits to Jodrell Bank Observatory and the University of Sheffield.</p>
+      <div class="hero-actions">
+        <a class="button-link" href="https://marie-curie.nl/page/show/127" target="_blank" rel="noopener"><i class="fas fa-route"></i> Official trip record</a>
+        <a class="button-link secondary" href="https://marie-curie.nl/blog/6" target="_blank" rel="noopener"><i class="fas fa-book-open"></i> Travel blog</a>
+      </div>
+    </div>
   </div>
 </section>
 
