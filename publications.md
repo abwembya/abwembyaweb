@@ -8,13 +8,27 @@ sidebar_compact: true
 <h1>Publications & Outputs</h1>
 <p class="page-intro">Selected lead and collaboration outputs in cosmic-ray radio detection, calibration, interferometry, scientific instrumentation, and physics education. Full collaboration records are available through ORCID, ResearchGate and INSPIRE.</p>
 
+<section class="research-feature">
+  <figure class="research-cover">
+    <img src="{{ site.baseurl }}/assets/images/thesis-cover.webp" alt="Cover artwork for In Phase With the Cosmos">
+    <figcaption>Doctoral thesis cover for <em>In Phase With the Cosmos</em>.</figcaption>
+  </figure>
+  <div class="hero research-hero">
+    <p class="eyebrow">DOCTORAL THESIS · 2026</p>
+    <h2>In Phase With the Cosmos</h2>
+    <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
+    <p>Radboud University. Doctoral thesis completed and approved for defence.</p>
+    <p><strong>Contribution:</strong> Lead doctoral work on precision timing, detector calibration and radio-interferometric reconstruction for inclined cosmic-ray air showers.</p>
+  </div>
+</section>
+
 <section class="section">
   <div class="card-grid">
     <article class="content-card">
-      <h3>Doctoral thesis</h3>
-      <p><strong>In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry</strong></p>
-      <p>Radboud University, 2026. Doctoral thesis completed and approved for defence.</p>
-      <p><strong>Contribution:</strong> Lead doctoral work on precision timing, detector calibration and radio-interferometric reconstruction for inclined cosmic-ray air showers.</p>
+      <h3>Doctoral defence</h3>
+      <p><strong>6 October 2026 at 10:30</strong></p>
+      <p>Academiezaal (Aula), Radboud University Nijmegen.</p>
+      <p>The thesis is completed and approved for defence.</p>
     </article>
     <article class="content-card">
       <h3>ORCID record</h3>
