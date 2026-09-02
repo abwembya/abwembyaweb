@@ -22,6 +22,18 @@ sidebar_compact: true
   </div>
 </section>
 
+<section class="section" id="awards">
+  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-trophy"></i></span>Awards &amp; Recognition</h2>
+  <div class="publication-list">
+    <article class="publication-item">
+      <h3>Third Place — Black in Physics 2022 Three Minute Thesis Competition</h3>
+      <p><em>Black in Physics Week</em> · 28 October 2022</p>
+      <p>Recognised for communicating my doctoral research in a concise three-minute presentation. The award included a US$150 prize.</p>
+      <a href="https://www.blackinphysics.org/events/3-minute-thesis-competition/" target="_blank" rel="noopener">Official competition page</a>
+    </article>
+  </div>
+</section>
+
 <section class="section">
   <div class="card-grid">
     <article class="content-card">
