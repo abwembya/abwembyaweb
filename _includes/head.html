@@ -1,62 +1,28 @@
-<head>
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta charset="utf-8">
-  <script>
-    (function () {
-      var dark = false;
-      try {
-        var savedTheme = localStorage.getItem('cv-theme');
-        dark = savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      } catch (error) {
-        dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      }
-      if (dark) document.documentElement.classList.add('dark');
-      document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
-    })();
-  </script>
-  {% if site.chrome_mobile_color %}<meta name="theme-color" content="{{ site.chrome_mobile_color }}">{% endif %}
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <meta name="author" content="Anthony Bwembya">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:image" content="{{ site.url }}/assets/images/anthony-bwembya-og.webp">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Anthony Bwembya — Physics, sensing, AI and data">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <link rel="icon" href="{{ site.baseurl }}/favicon-wide.svg?v=1" type="image/svg+xml">
-  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/plugins/font-awesome/css/all.css">
-  <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css?v=20260822-9">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Anthony Bwembya",
-    "url": "https://abwembya.online",
-    "image": "https://abwembya.online/assets/images/anthony-bwembya-portrait.webp",
-    "email": "mailto:contact@abwembya.online",
-    "jobTitle": "Physicist and Sensor-Data Specialist",
-    "alumniOf": [
-      {"@type": "CollegeOrUniversity", "name": "Radboud University"},
-      {"@type": "CollegeOrUniversity", "name": "National Research Nuclear University MEPhI"},
-      {"@type": "CollegeOrUniversity", "name": "University of Zambia"}
-    ],
-    "sameAs": [
-      "https://www.linkedin.com/in/anthony-bwembya",
-      "https://www.researchgate.net/profile/Anthony-Bwembya",
-      "https://orcid.org/0000-0002-6995-5978",
-      "https://github.com/abwembya"
-    ],
-    "knowsAbout": ["Sensor calibration", "RF signal processing", "Radio interferometry", "Scientific computing", "Machine learning", "Detector instrumentation"]
+{% capture title %}
+  {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}
+{% endcapture %}
+<title>{{ title | strip }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.description }}">
+<meta name="author" content="Anthony Bwembya">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+
+<script>
+  if (window.location.hostname === 'abwembya.online' || window.location.hostname === 'www.abwembya.online') {
+    window.location.replace('https://abwembya.com' + window.location.pathname + window.location.search + window.location.hash);
   }
-  </script>
-</head>
+</script>
+
+<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+{% if site.chrome_mobile_color %}
+<meta name="theme-color" content="{{ site.chrome_mobile_color }}">
+{% endif %}
+
+{% include analytics.html %}
