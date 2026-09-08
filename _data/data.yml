@@ -115,7 +115,8 @@ projects:
       tagline: Awarded a £5,000 grant for satellite-imaging and geodesy methods supporting water-level tracking in Zambia.
       category: impact
     - title: Data-Driven Rural Access in Liberia
-      tagline: "Freelance Technical Consultant (March–October) on a Swansea University-linked rural infrastructure programme under Jim Clarke, applying GIS and machine-learning-informed methods to prioritise rural roads for upgrading and participating in the planning and construction of more than 200 bridges, alongside local capacity building."
+      link: https://www.tap.swansea.ac.uk/research/research-highlights/culture-communication-heritage/motorcycle-taxis-in-liberia/
+      tagline: "Turning geospatial data into physical access. Freelance Technical Consultant (March–October) under Jim Clarke on a Swansea University-linked rural infrastructure programme, applying GIS and machine-learning-informed methods to prioritise rural roads for upgrading and contributing to the planning and construction of more than 200 bridges, alongside local capacity building."
       category: impact
     - title: AI-Assisted RFI Classification
       tagline: Concept development for probabilistic interference classification and RFI-aware calibration in MeerKAT/SKA-relevant radio data.
