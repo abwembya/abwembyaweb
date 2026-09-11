@@ -233,6 +233,22 @@ p {
     .item {
       margin-bottom: 15px;
     }
+    .project-figure {
+      margin: 12px 0 8px;
+      max-width: 420px;
+    }
+    .project-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+    figcaption {
+      margin-top: 5px;
+      font-size: 11px;
+      color: $text-grey;
+    }
   }
   .oss-section {
     .intro {
