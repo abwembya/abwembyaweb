@@ -117,6 +117,10 @@ projects:
     - title: Data-Driven Rural Access in Liberia
       link: https://www.tap.swansea.ac.uk/research/research-highlights/culture-communication-heritage/motorcycle-taxis-in-liberia/
       tagline: "Turning geospatial data into physical access. Freelance Technical Consultant (March–October) under Jim Clarke on a Swansea University-linked rural infrastructure programme, applying GIS and machine-learning-informed methods to prioritise rural roads for upgrading and contributing to the planning and construction of more than 200 bridges, alongside local capacity building."
+      image: https://www.swansea.ac.uk/arts-and-humanities/arts-and-humanities-research/past-research-projects/at-the-end-of-the-feeder-road/Background-image.jpg
+      image_alt: A newly constructed rural track bridge in Liberia next to the older footpath crossing.
+      image_credit: Swansea University
+      image_credit_link: https://www.swansea.ac.uk/arts-and-humanities/arts-and-humanities-research/past-research-projects/at-the-end-of-the-feeder-road/
       category: impact
     - title: AI-Assisted RFI Classification
       tagline: Concept development for probabilistic interference classification and RFI-aware calibration in MeerKAT/SKA-relevant radio data.
