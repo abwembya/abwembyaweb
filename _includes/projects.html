@@ -28,6 +28,23 @@
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
 
+      {% if project.image %}
+      <figure class="project-figure">
+        {% if project.link %}<a href="{{ project.link }}" target="_blank" rel="noopener">{% endif %}
+          <img class="project-image" src="{{ project.image }}" alt="{{ project.image_alt | default: project.title }}" loading="lazy">
+        {% if project.link %}</a>{% endif %}
+        {% if project.image_credit %}
+        <figcaption>
+          {% if project.image_credit_link %}
+          Photo: <a href="{{ project.image_credit_link }}" target="_blank" rel="noopener">{{ project.image_credit }}</a>
+          {% else %}
+          Photo: {{ project.image_credit }}
+          {% endif %}
+        </figcaption>
+        {% endif %}
+      </figure>
+      {% endif %}
+
     </div><!--//item-->
   {% endfor %}
 
