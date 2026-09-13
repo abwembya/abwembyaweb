@@ -1,0 +1,38 @@
+/* Homepage hero width refinement */
+@media (min-width: 981px) {
+  .home-hero {
+    grid-template-columns: minmax(260px, .60fr) minmax(0, 1.58fr);
+    min-height: 500px;
+  }
+
+  .home-hero-portrait-wrap,
+  .home-hero-portrait {
+    min-height: 500px;
+  }
+
+  .home-hero-copy {
+    padding: clamp(2.25rem, 4.2vw, 4.6rem) clamp(2.75rem, 5.2vw, 5.8rem);
+  }
+
+  .home-hero h1 {
+    max-width: 980px;
+    font-size: clamp(2.65rem, 4.2vw, 4.7rem);
+    line-height: 1.02;
+  }
+
+  .home-lead,
+  .home-context {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-hero {
+    grid-template-columns: minmax(300px, .58fr) minmax(0, 1.62fr);
+  }
+
+  .home-hero-copy {
+    padding-left: 5rem;
+    padding-right: 6.5rem;
+  }
+}
