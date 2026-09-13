@@ -1,83 +1,148 @@
 ---
 layout: default
 title: Home
-description: Anthony Bwembya — physicist specialising in sensor systems, RF signal processing, precision calibration, scientific computing, AI and data.
+description: Anthony Bwembya — experimental physicist working across radio detection, precision timing, signal processing and scientific computing.
 permalink: /
+sidebar_compact: true
+homepage_redesign: true
 ---
-<section class="profile-hero">
-  <img class="profile-portrait" src="{{ site.baseurl }}/assets/images/anthony-bwembya-portrait.webp" alt="Portrait of Anthony Bwembya">
-  <div class="profile-hero-content">
-    <section class="hero">
-      <p class="eyebrow">PHYSICS · SENSING · AI & DATA</p>
-      <h1>Turning complex measurements into reliable insight.</h1>
-      <p>I develop precision-calibrated sensor and data systems, from radio-interferometric reconstruction and detector simulation to uncertainty-aware analysis and intelligent diagnostics.</p>
-      <p class="plain-language-line"><strong>In plain English:</strong> I make large sensor networks agree on time, combine weak signals coherently, and turn noisy measurements into trustworthy results.</p>
-      <p class="availability-status"><i class="fas fa-circle" aria-hidden="true"></i> Open to research and industry roles, technical partnerships, and interdisciplinary collaborations.</p>
-      <div class="hero-actions">
-        <a class="button-link" href="{{ site.baseurl }}/research/"><i class="fas fa-satellite-dish"></i> Explore my research</a>
-        <a class="button-link secondary" href="{{ site.baseurl }}/experience/"><i class="fas fa-briefcase"></i> View experience</a>
-        <a class="button-link secondary" href="{{ site.baseurl }}/assets/Anthony_Bwembya_CV.pdf" download><i class="fas fa-file-pdf"></i> Download CV</a>
-      </div>
-    </section>
-    <div class="social-links" aria-label="Professional profiles">
-      <a href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://www.researchgate.net/profile/Anthony-Bwembya" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i> ResearchGate</a>
-      <a href="https://orcid.org/0000-0002-6995-5978" target="_blank" rel="noopener"><i class="fab fa-orcid"></i> ORCID</a>
+<section class="home-hero" aria-labelledby="home-title">
+  <div class="home-hero-portrait-wrap">
+    <img class="home-hero-portrait" src="{{ site.baseurl }}/assets/images/anthony-bwembya-portrait.webp" alt="Portrait of Anthony Bwembya">
+    <div class="signal-mark" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <div class="home-hero-copy">
+    <p class="home-kicker">EXPERIMENTAL PHYSICS · RADIO DETECTION · SIGNAL PROCESSING</p>
+    <h1 id="home-title">Turning weak, distributed signals into reliable physical measurements.</h1>
+    <p class="home-lead">I build precision sensing and reconstruction systems at the intersection of detector physics, RF signal processing and scientific computing.</p>
+    <p class="home-context">My doctoral work in the Pierre Auger Collaboration focuses on radio interferometry for very inclined cosmic-ray air showers: synchronising detector stations, validating timing, modelling systematics and reconstructing coherent signals across a large array.</p>
+    <div class="home-actions">
+      <a class="home-button primary" href="{{ site.baseurl }}/research/"><i class="fas fa-satellite-dish" aria-hidden="true"></i> View research</a>
+      <a class="home-button secondary" href="{{ site.baseurl }}/assets/Anthony_Bwembya_CV.pdf" download><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV</a>
+    </div>
+    <div class="home-profile-links" aria-label="Professional profiles">
+      <a href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://orcid.org/0000-0002-6995-5978" target="_blank" rel="noopener"><i class="fab fa-orcid" aria-hidden="true"></i> ORCID</a>
+      <a href="https://github.com/abwembya" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
     </div>
   </div>
 </section>
 
-{% assign career_profile = site.data.data.career-profile %}
-{% if career_profile %}
-<section class="section summary-section">
-  <h2 class="section-title">
-    <span class="section-icon" aria-hidden="true"><i class="fas fa-user"></i></span>
-    {{ career_profile.title }}
-  </h2>
-  <div class="summary">{{ career_profile.summary | markdownify }}</div>
+<section class="home-section" aria-labelledby="featured-research-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-kicker">FEATURED RESEARCH</p>
+      <h2 id="featured-research-title">Precision measurement at array scale</h2>
+    </div>
+    <a class="home-text-link" href="{{ site.baseurl }}/research/">All research <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="home-research-grid">
+    <a class="home-feature-card" href="{{ site.baseurl }}/research/">
+      <span class="home-card-icon"><i class="fas fa-broadcast-tower" aria-hidden="true"></i></span>
+      <span class="home-card-number">01</span>
+      <h3>Radio interferometry</h3>
+      <p>Coherent reconstruction of inclined air showers from synchronised measurements across widely separated antennas.</p>
+      <span class="home-card-link">Explore the reconstruction work <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+    <a class="home-feature-card" href="{{ site.baseurl }}/collaborations/">
+      <span class="home-card-icon"><i class="fas fa-atom" aria-hidden="true"></i></span>
+      <span class="home-card-number">02</span>
+      <h3>Pierre Auger Observatory</h3>
+      <p>Detector calibration, simulation and array-wide quality control within an international ultra-high-energy cosmic-ray experiment.</p>
+      <span class="home-card-link">View collaboration work <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+    <a class="home-feature-card" href="{{ site.baseurl }}/projects/">
+      <span class="home-card-icon"><i class="fas fa-stopwatch" aria-hidden="true"></i></span>
+      <span class="home-card-number">03</span>
+      <h3>Precision timing</h3>
+      <p>Beacon- and carrier-phase methods with independent closure diagnostics for distributed detector synchronisation.</p>
+      <span class="home-card-link">See technical projects <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+  </div>
 </section>
-{% endif %}
 
-<section class="section industry-bridge">
-  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-industry"></i></span>Transferable Capabilities</h2>
-  <p>For industry and applied-research teams, this work translates directly to distributed sensor systems, RF and signal processing, calibration, anomaly detection, scientific software, automated quality control, and uncertainty-aware decision pipelines.</p>
-</section>
-
-<section class="section">
-  <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-star"></i></span>Selected Highlights</h2>
-  <div class="card-grid">
-    <article class="content-card">
-      <h3>Precision radio sensing</h3>
-      <p>Phase calibration, distributed timing, antenna response, interferometry, and coherent signal reconstruction for a large detector array.</p>
-      <div class="tag-list"><span class="tag">30–80 MHz</span><span class="tag">Sub-ns validation</span><span class="tag">RF systems</span></div>
+<section class="home-section home-capabilities" aria-labelledby="capabilities-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-kicker">TECHNICAL STRENGTHS</p>
+      <h2 id="capabilities-title">From instrumentation to inference</h2>
+    </div>
+  </div>
+  <div class="home-capability-grid">
+    <article>
+      <i class="fas fa-wave-square" aria-hidden="true"></i>
+      <h3>RF & signal processing</h3>
+      <p>Phase calibration, Fourier analysis, spectral methods, coherent reconstruction and noise modelling.</p>
     </article>
-    <article class="content-card">
+    <article>
+      <i class="fas fa-code" aria-hidden="true"></i>
       <h3>Scientific computing</h3>
-      <p>Reproducible Python and C++ workflows for simulation, uncertainty analysis, quality control, optimisation, and large experimental datasets.</p>
-      <div class="tag-list"><span class="tag">Python</span><span class="tag">C++</span><span class="tag">Statistics</span></div>
+      <p>Reproducible Python and C++ workflows for simulation, statistics, optimisation and large experimental datasets.</p>
     </article>
-    <article class="content-card">
+    <article>
+      <i class="fas fa-microchip" aria-hidden="true"></i>
       <h3>Instrumentation</h3>
-      <p>Hands-on work spanning radiation detectors, radio antennas, fluorescence telescopes, LiDAR, electronics, calibration, and field operations.</p>
-      <div class="tag-list"><span class="tag">Calibration</span><span class="tag">Detectors</span><span class="tag">Field systems</span></div>
+      <p>Detector calibration, antenna systems, electronics, radiation detectors and laboratory-to-field validation.</p>
     </article>
-    <article class="content-card">
-      <h3>AI and intelligent diagnostics</h3>
-      <p>Machine-learning concepts for anomaly detection, RFI classification, probabilistic quality control, and explainable system monitoring.</p>
-      <div class="tag-list"><span class="tag">Machine learning</span><span class="tag">RFI</span><span class="tag">Responsible AI</span></div>
+    <article>
+      <i class="fas fa-chart-line" aria-hidden="true"></i>
+      <h3>Uncertainty & diagnostics</h3>
+      <p>Systematics, anomaly detection, automated quality control and uncertainty-aware quantitative reasoning.</p>
+    </article>
+  </div>
+  <p class="home-industry-bridge"><strong>Applied beyond astroparticle physics:</strong> these methods translate directly to distributed sensing, radar and RF systems, instrumentation, automated diagnostics and data-intensive R&amp;D.</p>
+</section>
+
+<section class="home-section home-publication" aria-labelledby="selected-publication-title">
+  <div class="home-publication-label">
+    <span><i class="fas fa-book-open" aria-hidden="true"></i></span>
+    <p>SELECTED PUBLICATION</p>
+  </div>
+  <div class="home-publication-body">
+    <p class="home-publication-meta">PROCEEDINGS OF SCIENCE · ICRC 2025</p>
+    <h2 id="selected-publication-title">Results and plans to apply interferometry to air shower observations at the Pierre Auger Observatory</h2>
+    <p>Collaboration output closely connected to my doctoral work on beacon timing, station geometry and extending interferometry to AugerPrime radio detectors.</p>
+    <div class="home-publication-actions">
+      <a href="https://doi.org/10.22323/1.501.0386" target="_blank" rel="noopener">Read via DOI <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+      <a href="{{ site.baseurl }}/publications/">More publications <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="home-section" aria-labelledby="experience-preview-title">
+  <div class="home-section-heading">
+    <div>
+      <p class="home-kicker">EXPERIENCE</p>
+      <h2 id="experience-preview-title">Research built around real systems</h2>
+    </div>
+    <a class="home-text-link" href="{{ site.baseurl }}/experience/">Full experience <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="home-experience-grid">
+    <article>
+      <p class="home-experience-time">2021–2026</p>
+      <h3>Sensor development, calibration & intelligent data processing</h3>
+      <p class="home-experience-org">Radboud University · Pierre Auger Collaboration</p>
+      <p>Developing timing, calibration and reconstruction workflows for a distributed 30–80 MHz radio-detector array, supported by simulation and array-wide validation.</p>
+    </article>
+    <article>
+      <p class="home-experience-time">Research + applied work</p>
+      <h3>Physics methods that transfer</h3>
+      <p class="home-experience-org">Sensing · scientific software · instrumentation</p>
+      <p>I work where measurement reliability matters: synchronisation, calibration, uncertainty, reproducible analysis and technical decision-making.</p>
     </article>
   </div>
 </section>
 
-<section class="opportunity-cta homepage-cta">
+<section class="home-contact-cta" aria-labelledby="home-contact-title">
   <div>
-    <p class="eyebrow">EXPLORE THE FULL PROFILE</p>
-    <h2>See the experience and research behind the highlights.</h2>
-    <p>Review my professional experience, research contributions, or download the complete CV for the full technical competency inventory.</p>
+    <p class="home-kicker">RESEARCH · R&amp;D · COLLABORATION</p>
+    <h2 id="home-contact-title">Explore my research and technical work.</h2>
+    <p>I am open to research and industry roles, technical partnerships and interdisciplinary collaborations involving sensing, signal processing, scientific computing and instrumentation.</p>
   </div>
-  <div class="hero-actions">
-    <a class="button-link" href="{{ site.baseurl }}/experience/"><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</a>
-    <a class="button-link secondary" href="{{ site.baseurl }}/research/"><i class="fas fa-microscope" aria-hidden="true"></i> Research</a>
-    <a class="button-link secondary" href="{{ site.baseurl }}/assets/Anthony_Bwembya_CV.pdf" download><i class="fas fa-file-pdf" aria-hidden="true"></i> Full CV</a>
+  <div class="home-contact-actions">
+    <a class="home-button primary" href="{{ site.baseurl }}/contact/"><i class="fas fa-envelope" aria-hidden="true"></i> Contact me</a>
+    <a class="home-button secondary" href="{{ site.baseurl }}/experience/"><i class="fas fa-briefcase" aria-hidden="true"></i> Experience</a>
   </div>
 </section>
