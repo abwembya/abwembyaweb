@@ -1,0 +1,39 @@
+/* Header spacing refinement */
+@media (min-width: 821px) {
+  .site-header {
+    gap: 1.55rem;
+  }
+
+  .site-brand {
+    margin-right: .15rem;
+  }
+
+  .site-nav {
+    gap: .85rem;
+    align-items: center;
+  }
+
+  .site-nav a {
+    padding: .55rem .25rem;
+  }
+
+  .site-nav a::after {
+    left: .25rem;
+    right: .25rem;
+  }
+
+  .header-actions {
+    margin-left: auto;
+    gap: .7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-header {
+    gap: 1.8rem;
+  }
+
+  .site-nav {
+    gap: 1.05rem;
+  }
+}
