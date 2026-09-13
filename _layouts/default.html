@@ -34,8 +34,8 @@
     </div>
   </header>
 
-  <div class="wrapper">
-    {% include sidebar.html %}
+  <div class="wrapper{% if page.homepage_redesign %} homepage-wrapper{% endif %}">
+    {% unless page.homepage_redesign %}{% include sidebar.html %}{% endunless %}
     <main class="main-wrapper" id="main-content">
       {{ content }}
     </main>
