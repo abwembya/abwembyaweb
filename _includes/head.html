@@ -41,6 +41,18 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home-hero-wide.css?v=20260914-2">
   {% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/readability.css?v=20260914-1">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var figure = document.querySelector('.home-publication-plot');
+      if (!figure) return;
+      var localFigure = '{{ site.baseurl }}/assets/images/icrc-2025-interferometry-figure.png?v=20260914-3';
+      figure.onerror = function () {
+        figure.onerror = null;
+        figure.src = 'https://raw.githubusercontent.com/abwembya/abwembyaweb/master/assets/images/icrc-2025-interferometry-figure.png?v=20260914-3';
+      };
+      figure.src = localFigure;
+    });
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
