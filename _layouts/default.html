@@ -61,6 +61,42 @@
       text-align: left !important;
       text-justify: auto !important;
     }
+    .homepage-wrapper .home-defence-callout {
+      display: flex !important;
+      align-items: center !important;
+      gap: 16px !important;
+      margin: 0 0 22px !important;
+      padding: 16px 20px !important;
+      border: 1px solid rgba(29, 117, 128, .28) !important;
+      border-left: 4px solid #1d7580 !important;
+      border-radius: 12px !important;
+      background: linear-gradient(90deg, rgba(29,117,128,.10), rgba(29,117,128,.03)) !important;
+      box-shadow: 0 5px 18px rgba(20,45,65,.05) !important;
+    }
+    .homepage-wrapper .home-defence-icon {
+      display: grid !important;
+      place-items: center !important;
+      flex: 0 0 46px !important;
+      width: 46px !important;
+      height: 46px !important;
+      border-radius: 50% !important;
+      background: #173f55 !important;
+      color: #fff !important;
+      font-size: 1.05rem !important;
+    }
+    .homepage-wrapper .home-defence-label {
+      margin: 0 0 2px !important;
+      color: #1d7580 !important;
+      font-size: .76rem !important;
+      font-weight: 800 !important;
+      letter-spacing: .12em !important;
+    }
+    .homepage-wrapper .home-defence-callout p:last-child {
+      margin: 0 !important;
+      color: var(--text) !important;
+      font-size: 1rem !important;
+      line-height: 1.45 !important;
+    }
     .homepage-wrapper .home-hero {
       display: grid !important;
       grid-template-columns: minmax(430px, .9fr) minmax(0, 1.35fr) !important;
@@ -121,6 +157,8 @@
     @media (max-width: 600px) {
       .homepage-wrapper { width: 100% !important; margin-top: 10px !important; }
       .homepage-wrapper > .main-wrapper { padding: 22px !important; }
+      .homepage-wrapper .home-defence-callout { align-items: flex-start !important; padding: 14px 16px !important; }
+      .homepage-wrapper .home-defence-icon { flex-basis: 40px !important; width: 40px !important; height: 40px !important; }
       .homepage-wrapper .home-hero-copy { padding: 30px 24px !important; }
     }
   </style>
