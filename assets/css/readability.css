@@ -1,144 +1,195 @@
 /* Readability and publication-figure refinements */
 body {
-  font-size: 17px;
+  font-size: 18px !important;
+}
+
+.site-header .site-nav a {
+  font-size: 1.02rem !important;
 }
 
 .wrapper:not(.homepage-wrapper) .main-wrapper {
-  font-size: 1.04rem;
+  font-size: 1.08rem !important;
 }
 
 .wrapper:not(.homepage-wrapper) .page-intro {
-  font-size: 1.16rem !important;
-  line-height: 1.7 !important;
+  font-size: 1.22rem !important;
+  line-height: 1.72 !important;
 }
 
 .wrapper:not(.homepage-wrapper) .content-card p,
 .wrapper:not(.homepage-wrapper) .details,
 .wrapper:not(.homepage-wrapper) .publication-item p,
-.wrapper:not(.homepage-wrapper) .item p {
-  font-size: 1.06rem;
-  line-height: 1.7;
+.wrapper:not(.homepage-wrapper) .item p,
+.wrapper:not(.homepage-wrapper) .contact-note p {
+  font-size: 1.1rem !important;
+  line-height: 1.72 !important;
 }
 
 .wrapper:not(.homepage-wrapper) .content-card h3,
 .wrapper:not(.homepage-wrapper) .publication-item h3 {
-  font-size: 1.62rem !important;
+  font-size: 1.75rem !important;
+}
+
+.wrapper:not(.homepage-wrapper) .section-title {
+  font-size: 2rem !important;
 }
 
 .wrapper:not(.homepage-wrapper) .tag-list {
-  gap: .7rem !important;
+  gap: .75rem !important;
 }
 
 .wrapper:not(.homepage-wrapper) .tag {
-  padding: .72rem 1.08rem !important;
-  font-size: 1.1rem !important;
+  padding: .76rem 1.12rem !important;
+  font-size: 1.14rem !important;
   line-height: 1.3 !important;
 }
 
-.homepage-wrapper .home-section-heading h2 {
-  font-size: clamp(2.15rem, 3.1vw, 3.15rem) !important;
+body .homepage-wrapper .home-kicker {
+  font-size: 1rem !important;
 }
 
-.homepage-wrapper .home-feature-card {
-  min-height: 350px !important;
-  padding: 38px 35px !important;
+body .homepage-wrapper .home-lead {
+  font-size: 1.42rem !important;
+  line-height: 1.62 !important;
 }
 
-.homepage-wrapper .home-feature-card h3 {
-  font-size: 1.8rem !important;
+body .homepage-wrapper .home-context {
+  font-size: 1.28rem !important;
+  line-height: 1.76 !important;
 }
 
-.homepage-wrapper .home-feature-card p {
-  font-size: 1.16rem !important;
-  line-height: 1.72 !important;
-}
-
-.homepage-wrapper .home-card-link {
-  font-size: 1.08rem !important;
-}
-
-.homepage-wrapper .home-capability-grid h3,
-.homepage-wrapper .home-experience-grid h3 {
-  font-size: 1.48rem !important;
-}
-
-.homepage-wrapper .home-capability-grid p,
-.homepage-wrapper .home-experience-grid article > p:last-child,
-.homepage-wrapper .home-industry-bridge {
+body .homepage-wrapper .home-profile-links a {
   font-size: 1.12rem !important;
-  line-height: 1.72 !important;
 }
 
-.homepage-wrapper .home-defence-callout p:last-child {
-  font-size: 1.16rem !important;
+body .homepage-wrapper .home-section-heading h2 {
+  font-size: clamp(2.55rem, 3.2vw, 3.5rem) !important;
 }
 
-.homepage-wrapper .home-publication {
-  grid-template-columns: minmax(390px, .78fr) minmax(0, 1.42fr) !important;
-  min-height: 500px !important;
+body .homepage-wrapper .home-text-link {
+  font-size: 1.22rem !important;
 }
 
-.homepage-wrapper .home-publication-visual {
-  min-height: 500px !important;
+body .homepage-wrapper .home-defence-label {
+  font-size: 1.04rem !important;
+}
+
+body .homepage-wrapper .home-defence-callout p:last-child {
+  font-size: 1.34rem !important;
+}
+
+body .homepage-wrapper .home-feature-card {
+  min-height: 375px !important;
+  padding: 40px 36px !important;
+}
+
+body .homepage-wrapper .home-feature-card h3 {
+  font-size: 2.08rem !important;
+}
+
+body .homepage-wrapper .home-feature-card p {
+  font-size: 1.28rem !important;
+  line-height: 1.74 !important;
+}
+
+body .homepage-wrapper .home-card-link {
+  font-size: 1.2rem !important;
+}
+
+body .homepage-wrapper .home-capability-grid h3,
+body .homepage-wrapper .home-experience-grid h3 {
+  font-size: 1.72rem !important;
+}
+
+body .homepage-wrapper .home-capability-grid p,
+body .homepage-wrapper .home-experience-grid article > p:last-child,
+body .homepage-wrapper .home-industry-bridge {
+  font-size: 1.24rem !important;
+  line-height: 1.74 !important;
+}
+
+body .homepage-wrapper .home-experience-org {
+  font-size: 1.22rem !important;
+}
+
+body .homepage-wrapper .home-experience-time {
+  font-size: 1.06rem !important;
+}
+
+body .homepage-wrapper .home-publication {
+  grid-template-columns: minmax(430px, .82fr) minmax(0, 1.42fr) !important;
+  min-height: 520px !important;
+}
+
+body .homepage-wrapper .home-publication-visual {
+  min-height: 520px !important;
   padding: 0 !important;
   background: #fff !important;
 }
 
-.homepage-wrapper .home-publication-plot {
+body .homepage-wrapper .home-publication-plot {
   display: block !important;
   width: 100% !important;
   height: 100% !important;
-  min-height: 500px !important;
+  min-height: 520px !important;
   object-fit: contain !important;
   object-position: center !important;
   background: #fff !important;
 }
 
-.homepage-wrapper .home-publication-body h2 {
-  font-size: clamp(2.25rem, 2.8vw, 3.2rem) !important;
+body .homepage-wrapper .home-publication-body h2 {
+  font-size: clamp(2.45rem, 3vw, 3.45rem) !important;
   line-height: 1.08 !important;
 }
 
-.homepage-wrapper .home-publication-meta {
-  font-size: .98rem !important;
+body .homepage-wrapper .home-publication-meta {
+  font-size: 1.1rem !important;
 }
 
-.homepage-wrapper .home-publication-body > p:not(.home-publication-meta) {
-  font-size: 1.18rem !important;
+body .homepage-wrapper .home-publication-body > p:not(.home-publication-meta) {
+  font-size: 1.32rem !important;
+  line-height: 1.75 !important;
+}
+
+body .homepage-wrapper .home-publication-actions a {
+  font-size: 1.24rem !important;
+}
+
+body .homepage-wrapper .home-contact-cta h2 {
+  font-size: clamp(2.35rem, 3vw, 3.25rem) !important;
+}
+
+body .homepage-wrapper .home-contact-cta > div > p:last-child {
+  font-size: 1.26rem !important;
   line-height: 1.72 !important;
 }
 
-.homepage-wrapper .home-publication-actions a {
-  font-size: 1.12rem !important;
+body .homepage-wrapper .home-button {
+  font-size: 1.08rem !important;
 }
 
 @media (max-width: 1050px) {
-  .homepage-wrapper .home-publication {
+  body .homepage-wrapper .home-publication {
     grid-template-columns: 1fr !important;
   }
-  .homepage-wrapper .home-publication-visual,
-  .homepage-wrapper .home-publication-plot {
+  body .homepage-wrapper .home-publication-visual,
+  body .homepage-wrapper .home-publication-plot {
     min-height: 420px !important;
   }
 }
 
-@media (max-width: 600px) {
-  body { font-size: 16px; }
-  .homepage-wrapper .home-feature-card {
+@media (max-width: 760px) {
+  body { font-size: 17px !important; }
+  body .homepage-wrapper .home-lead { font-size: 1.24rem !important; }
+  body .homepage-wrapper .home-context { font-size: 1.14rem !important; }
+  body .homepage-wrapper .home-feature-card {
     min-height: 0 !important;
-    padding: 28px 24px !important;
+    padding: 30px 25px !important;
   }
-  .homepage-wrapper .home-feature-card h3 {
-    font-size: 1.55rem !important;
-  }
-  .homepage-wrapper .home-feature-card p {
-    font-size: 1.06rem !important;
-  }
-  .homepage-wrapper .home-publication-visual,
-  .homepage-wrapper .home-publication-plot {
-    min-height: 340px !important;
-  }
-  .homepage-wrapper .home-publication-body h2 {
-    font-size: 2rem !important;
-  }
+  body .homepage-wrapper .home-feature-card h3 { font-size: 1.78rem !important; }
+  body .homepage-wrapper .home-feature-card p { font-size: 1.14rem !important; }
+  body .homepage-wrapper .home-publication-visual,
+  body .homepage-wrapper .home-publication-plot { min-height: 340px !important; }
+  body .homepage-wrapper .home-publication-body h2 { font-size: 2.15rem !important; }
+  body .homepage-wrapper .home-publication-body > p:not(.home-publication-meta) { font-size: 1.15rem !important; }
 }
