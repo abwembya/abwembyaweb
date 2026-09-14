@@ -3,8 +3,18 @@ body {
   font-size: 18px !important;
 }
 
+.site-header {
+  min-height: 72px !important;
+}
+
 .site-header .site-nav a {
-  font-size: 1.02rem !important;
+  font-size: 1.16rem !important;
+  font-weight: 700 !important;
+  padding: .62rem .72rem !important;
+}
+
+.site-header .nav-contact {
+  font-size: 1.16rem !important;
 }
 
 .wrapper:not(.homepage-wrapper) .main-wrapper {
@@ -180,6 +190,8 @@ body .homepage-wrapper .home-button {
 
 @media (max-width: 760px) {
   body { font-size: 17px !important; }
+  .site-header { min-height: 64px !important; }
+  .site-header .site-nav a { font-size: 1.05rem !important; }
   body .homepage-wrapper .home-lead { font-size: 1.24rem !important; }
   body .homepage-wrapper .home-context { font-size: 1.14rem !important; }
   body .homepage-wrapper .home-feature-card {
