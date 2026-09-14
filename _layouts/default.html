@@ -85,8 +85,8 @@
       display: flex !important;
       align-items: center !important;
       gap: 16px !important;
-      margin: 0 0 22px !important;
-      padding: 16px 20px !important;
+      margin: -6px 0 34px !important;
+      padding: 18px 22px !important;
       border: 1px solid rgba(29, 117, 128, .28) !important;
       border-left: 4px solid #1d7580 !important;
       border-radius: 12px !important;
@@ -96,25 +96,25 @@
     .homepage-wrapper .home-defence-icon {
       display: grid !important;
       place-items: center !important;
-      flex: 0 0 46px !important;
-      width: 46px !important;
-      height: 46px !important;
+      flex: 0 0 50px !important;
+      width: 50px !important;
+      height: 50px !important;
       border-radius: 50% !important;
       background: #173f55 !important;
       color: #fff !important;
-      font-size: 1.05rem !important;
+      font-size: 1.12rem !important;
     }
     .homepage-wrapper .home-defence-label {
-      margin: 0 0 2px !important;
+      margin: 0 0 3px !important;
       color: #1d7580 !important;
-      font-size: .76rem !important;
+      font-size: .84rem !important;
       font-weight: 800 !important;
       letter-spacing: .12em !important;
     }
     .homepage-wrapper .home-defence-callout p:last-child {
       margin: 0 !important;
       color: var(--text) !important;
-      font-size: 1rem !important;
+      font-size: 1.08rem !important;
       line-height: 1.45 !important;
     }
     .homepage-wrapper .home-hero {
@@ -123,6 +123,7 @@
       align-items: stretch !important;
       overflow: hidden !important;
       border-radius: 18px !important;
+      margin-bottom: 28px !important;
     }
     .homepage-wrapper .home-hero-portrait-wrap {
       min-width: 0 !important;
@@ -143,28 +144,127 @@
     }
     .homepage-wrapper .home-hero-copy {
       min-width: 0 !important;
-      padding: 52px 58px !important;
+      padding: 54px 60px !important;
     }
     .homepage-wrapper .home-hero-copy h1 {
-      max-width: 820px !important;
-      font-size: clamp(2.8rem, 4vw, 4.8rem) !important;
+      max-width: 860px !important;
+      font-size: clamp(2.9rem, 4vw, 4.9rem) !important;
       line-height: 1.02 !important;
       letter-spacing: -.035em !important;
     }
-    .homepage-wrapper .home-lead,
-    .homepage-wrapper .home-context { max-width: 820px !important; }
+    .homepage-wrapper .home-lead {
+      max-width: 860px !important;
+      font-size: 1.28rem !important;
+    }
+    .homepage-wrapper .home-context {
+      max-width: 860px !important;
+      font-size: 1.08rem !important;
+    }
+    .homepage-wrapper .home-kicker {
+      font-size: .9rem !important;
+    }
     .homepage-wrapper .home-research-grid {
       display: grid !important;
       grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-      gap: 26px !important;
+      gap: 28px !important;
     }
     .homepage-wrapper .home-feature-card {
       min-width: 0 !important;
-      padding: 30px 28px !important;
+      min-height: 335px !important;
+      padding: 36px 34px !important;
+    }
+    .homepage-wrapper .home-feature-card h3 {
+      font-size: 1.7rem !important;
+      line-height: 1.18 !important;
+    }
+    .homepage-wrapper .home-feature-card p {
+      font-size: 1.08rem !important;
+      line-height: 1.7 !important;
+    }
+    .homepage-wrapper .home-card-link {
+      font-size: 1rem !important;
+    }
+    .homepage-wrapper .home-card-icon {
+      width: 50px !important;
+      height: 50px !important;
+      font-size: 1.28rem !important;
     }
     .homepage-wrapper .home-capability-grid,
     .homepage-wrapper .home-experience-grid {
-      gap: 22px !important;
+      gap: 24px !important;
+    }
+    .homepage-wrapper .home-capability-grid article {
+      padding: 24px !important;
+    }
+    .homepage-wrapper .home-capability-grid h3,
+    .homepage-wrapper .home-experience-grid h3 {
+      font-size: 1.35rem !important;
+    }
+    .homepage-wrapper .home-capability-grid p,
+    .homepage-wrapper .home-experience-grid article > p:last-child {
+      font-size: 1.05rem !important;
+      line-height: 1.7 !important;
+    }
+    .homepage-wrapper .home-publication {
+      grid-template-columns: minmax(360px, .62fr) minmax(0, 1.5fr) !important;
+      min-height: 430px !important;
+    }
+    .homepage-wrapper .home-publication-label {
+      min-height: 430px !important;
+      padding: 0 !important;
+      position: relative !important;
+      overflow: hidden !important;
+      background: #123d52 !important;
+    }
+    .homepage-wrapper .home-publication-plot {
+      display: block !important;
+      width: 100% !important;
+      height: 100% !important;
+      min-height: 430px !important;
+      border: 0 !important;
+      background: #fff !important;
+    }
+    .homepage-wrapper .home-publication-visual-caption {
+      position: absolute !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      display: flex !important;
+      align-items: center !important;
+      gap: 12px !important;
+      padding: 14px 18px !important;
+      background: linear-gradient(180deg, transparent, rgba(12,44,59,.96) 35%) !important;
+      color: #fff !important;
+      pointer-events: none !important;
+    }
+    .homepage-wrapper .home-publication-visual-caption span {
+      display: grid !important;
+      place-items: center !important;
+      width: 38px !important;
+      height: 38px !important;
+      border: 1px solid rgba(255,255,255,.45) !important;
+      border-radius: 8px !important;
+    }
+    .homepage-wrapper .home-publication-visual-caption p {
+      margin: 0 !important;
+      color: #fff !important;
+      font-size: .78rem !important;
+      font-weight: 800 !important;
+      letter-spacing: .11em !important;
+    }
+    .homepage-wrapper .home-publication-body {
+      padding: 42px 46px !important;
+    }
+    .homepage-wrapper .home-publication-body h2 {
+      font-size: clamp(2rem, 2.7vw, 3rem) !important;
+      line-height: 1.08 !important;
+    }
+    .homepage-wrapper .home-publication-body > p:not(.home-publication-meta) {
+      font-size: 1.1rem !important;
+      line-height: 1.72 !important;
+    }
+    .homepage-wrapper .home-publication-actions a {
+      font-size: 1.05rem !important;
     }
     @media (max-width: 1050px) {
       .homepage-wrapper { width: min(96vw, 1100px) !important; }
@@ -173,6 +273,9 @@
       .homepage-wrapper .home-hero-portrait-wrap { max-height: 680px !important; }
       .homepage-wrapper .home-hero-portrait { width: auto !important; max-width: 100% !important; max-height: 680px !important; }
       .homepage-wrapper .home-research-grid { grid-template-columns: 1fr !important; }
+      .homepage-wrapper .home-publication { grid-template-columns: 1fr !important; }
+      .homepage-wrapper .home-publication-label { min-height: 360px !important; }
+      .homepage-wrapper .home-publication-plot { min-height: 360px !important; }
     }
     @media (max-width: 600px) {
       .homepage-wrapper { width: 100% !important; margin-top: 10px !important; }
@@ -180,6 +283,10 @@
       .homepage-wrapper .home-defence-callout { align-items: flex-start !important; padding: 14px 16px !important; }
       .homepage-wrapper .home-defence-icon { flex-basis: 40px !important; width: 40px !important; height: 40px !important; }
       .homepage-wrapper .home-hero-copy { padding: 30px 24px !important; }
+      .homepage-wrapper .home-feature-card { min-height: 0 !important; padding: 28px 24px !important; }
+      .homepage-wrapper .home-publication-label { min-height: 300px !important; }
+      .homepage-wrapper .home-publication-plot { min-height: 300px !important; }
+      .homepage-wrapper .home-publication-body { padding: 28px 24px !important; }
     }
   </style>
   {% endif %}
