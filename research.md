@@ -17,7 +17,7 @@ sidebar_compact: true
     <p class="eyebrow">DOCTORAL RESEARCH</p>
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
-    <p>Doctoral thesis completed and approved for defence in 2026. Radboud University · Pierre Auger Collaboration · Nikhef.</p>
+    <p>Doctoral thesis completed and approved for defence. <strong>Defence: 6 October 2026 at 10:30, Academiezaal (Aula), Radboud University Nijmegen.</strong> Research conducted within Radboud University, the Pierre Auger Collaboration and Nikhef.</p>
   </div>
 </section>
 
