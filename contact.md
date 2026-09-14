@@ -12,9 +12,9 @@ permalink: /contact/
 
 <section class="section">
   <div class="contact-grid">
-    <a class="contact-card" href="mailto:contact@abwembya.online">
+    <a class="contact-card" href="mailto:contact@abwembya.com">
       <i class="fas fa-envelope" aria-hidden="true"></i>
-      <span><strong>Email</strong><small>contact@abwembya.online</small></span>
+      <span><strong>Email</strong><small>contact@abwembya.com</small></span>
     </a>
     <a class="contact-card" href="https://www.linkedin.com/in/anthony-bwembya" target="_blank" rel="noopener">
       <i class="fab fa-linkedin" aria-hidden="true"></i>
