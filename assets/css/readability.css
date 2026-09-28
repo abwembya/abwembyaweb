@@ -142,9 +142,9 @@ body .homepage-wrapper .home-publication-plot {
   width: 100% !important;
   height: 100% !important;
   min-height: 520px !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
   object-position: center !important;
-  background: #fff !important;
+  background: var(--surface-soft) !important;
 }
 
 body .homepage-wrapper .home-publication-body h2 {
