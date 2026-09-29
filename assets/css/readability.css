@@ -1,6 +1,9 @@
+/* Restore rem sizing overridden by Bootstrap 3's 10px root. */
+html { font-size: 100%; }
+
 /* Readability and publication-figure refinements */
 body {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .site-header {
@@ -189,7 +192,7 @@ body .homepage-wrapper .home-button {
 }
 
 @media (max-width: 760px) {
-  body { font-size: 17px !important; }
+  body { font-size: 18px !important; }
   .site-header { min-height: 64px !important; }
   .site-header .site-nav a { font-size: 1.05rem !important; }
   body .homepage-wrapper .home-lead { font-size: 1.24rem !important; }
@@ -204,4 +207,28 @@ body .homepage-wrapper .home-button {
   body .homepage-wrapper .home-publication-plot { min-height: 340px !important; }
   body .homepage-wrapper .home-publication-body h2 { font-size: 2.15rem !important; }
   body .homepage-wrapper .home-publication-body > p:not(.home-publication-meta) { font-size: 1.15rem !important; }
+}
+
+/* Keep supporting copy readable and let larger navigation labels wrap. */
+body .homepage-wrapper .home-eyebrow,
+body .homepage-wrapper .home-section-kicker,
+body .homepage-wrapper .home-capabilities-label,
+body .homepage-wrapper .home-contact-cta .home-kicker,
+.site-footer,
+.site-footer a,
+.site-footer p {
+  font-size: 1rem !important;
+  line-height: 1.6;
+}
+.site-nav { flex-wrap: wrap; align-items: center; }
+body .homepage-wrapper .home-feature-card,
+body .homepage-wrapper .home-capability-grid article,
+body .homepage-wrapper .home-experience-grid article {
+  overflow-wrap: break-word;
+}
+@media (max-width: 600px) {
+  body .homepage-wrapper .home-hero-copy h1 {
+    font-size: clamp(2rem, 8vw, 2.9rem) !important;
+    overflow-wrap: break-word;
+  }
 }
