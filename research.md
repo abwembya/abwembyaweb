@@ -63,7 +63,7 @@ sidebar_compact: true
 <section class="section methods-section">
   <h2 class="section-title"><span class="section-icon" aria-hidden="true"><i class="fas fa-microscope"></i></span>Methods</h2>
   <div class="tag-list">
-    <span class="tag">Radio interferometry</span><span class="tag">Phase calibration</span>
+    <span class="tag">Radio interferometry</span><span class="tag">Sensor fusion</span><span class="tag">Phase calibration</span>
     <span class="tag">Distributed timing</span><span class="tag">Antenna modelling</span>
     <span class="tag">CORSIKA/CoREAS</span><span class="tag">Optimisation</span>
     <span class="tag">Uncertainty propagation</span><span class="tag">Quality control</span>
