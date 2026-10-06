@@ -46,7 +46,7 @@ sidebar:
 career-profile:
   title: Professional Profile
   summary: |
-    Experimental physicist specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
+    Experimental physicist specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, sensor fusion, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
 
     My doctoral research within the international Pierre Auger Collaboration advanced radio-interferometric reconstruction of very inclined cosmic-ray air showers through timing validation, antenna-response studies, simulation, statistics, and array-wide quality control. The same core methods extend naturally to radar, remote sensing, Earth observation, and other distributed sensing systems.
 
@@ -102,7 +102,7 @@ projects:
   intro: Selected projects connecting precision measurement, computation, and real-world systems.
   assignments:
     - title: Radio Interferometry for Cosmic-Ray Detection
-      tagline: Coherent reconstruction of inclined air showers using synchronised measurements from widely separated antennas.
+      tagline: "Sensor fusion through radio interferometry: coherently combining synchronised measurements from widely separated antennas to reconstruct inclined air showers."
       category: sensing
     - title: Precision Timing and Phase Calibration
       tagline: Beacon- and broadcast-carrier methods, discrete phase solutions, and closure diagnostics for distributed detector stations.
@@ -139,7 +139,7 @@ skills:
       items: [PyTorch, scikit-learn, Supervised learning, Unsupervised learning, Classification, Regression, Clustering, Feature engineering, Anomaly detection, Model validation, Responsible AI]
     - title: Signal Processing & Reconstruction
       icon: wave-square
-      items: [RF signal processing, Radio interferometry, Fourier analysis, Spectral analysis, Phase calibration, Timing synchronisation, Coherent reconstruction, Noise modelling, Statistical filtering, Optimisation]
+      items: [RF signal processing, Sensor fusion, Radio interferometry, Fourier analysis, Spectral analysis, Phase calibration, Timing synchronisation, Coherent reconstruction, Noise modelling, Statistical filtering, Optimisation]
     - title: Sensors, Detectors & Instrumentation
       icon: satellite-dish
       items: [Antenna arrays, Detector calibration, LiDAR, Fluorescence telescopes, PMTs, Radiation detectors, VNA / AWG / DAC, RF/DC chains, DAQ systems, Laboratory and field validation]
