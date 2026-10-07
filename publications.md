@@ -17,7 +17,7 @@ sidebar_compact: true
     <p class="eyebrow">DOCTORAL THESIS · 2026</p>
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
-    <p>Radboud University. Doctoral thesis completed and approved for defence.</p>
+    <p>Radboud University, Netherlands. PhD awarded 6 October 2026. <a href="https://hdl.handle.net/2066/334492" target="_blank" rel="noopener">Read the thesis in the Radboud Repository</a>.</p>
     <p><strong>Contribution:</strong> Lead doctoral work on precision timing, detector calibration and radio-interferometric reconstruction for inclined cosmic-ray air showers.</p>
   </div>
 </section>
@@ -37,10 +37,10 @@ sidebar_compact: true
 <section class="section">
   <div class="card-grid">
     <article class="content-card">
-      <h3>Doctoral defence</h3>
-      <p><strong>6 October 2026 at 10:30</strong></p>
-      <p>Academiezaal (Aula), Radboud University Nijmegen.</p>
-      <p>The thesis is completed and approved for defence.</p>
+      <h3>PhD completed</h3>
+      <p><strong>6 October 2026</strong></p>
+      <p>Radboud University, Netherlands.</p>
+      <p>Available in the <a href="https://hdl.handle.net/2066/334492" target="_blank" rel="noopener">Radboud Repository</a>.</p>
     </article>
     <article class="content-card">
       <h3>ORCID record</h3>
