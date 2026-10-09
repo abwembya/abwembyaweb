@@ -18,6 +18,7 @@ sidebar_compact: true
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
     <p>Radboud University, Netherlands. PhD awarded 6 October 2026. <a href="https://hdl.handle.net/2066/334492" target="_blank" rel="noopener">Read the thesis in the Radboud Repository</a>.</p>
+    {% include phd-references.html %}
     <p><strong>Contribution:</strong> Lead doctoral work on precision timing, detector calibration and radio-interferometric reconstruction for inclined cosmic-ray air showers.</p>
   </div>
 </section>

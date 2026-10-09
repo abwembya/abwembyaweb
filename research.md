@@ -18,6 +18,7 @@ sidebar_compact: true
     <h2>In Phase With the Cosmos</h2>
     <p><em>Mass Composition of Cosmic Rays via Radio Interferometry</em></p>
     <p>PhD awarded on <strong>6 October 2026</strong> at Radboud University, Netherlands. <a href="https://hdl.handle.net/2066/334492" target="_blank" rel="noopener">Read the thesis in the Radboud Repository</a>. Research conducted within Radboud University, the Pierre Auger Collaboration and Nikhef.</p>
+    {% include phd-references.html %}
   </div>
 </section>
 

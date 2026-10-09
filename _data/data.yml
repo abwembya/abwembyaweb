@@ -4,7 +4,7 @@ sidebar:
   education: true
 
   name: Anthony Bwembya
-  tagline: Experimental Physicist · Radio Detection · Signal Processing · Scientific Computing
+  tagline: "Experimental Physicist | Detector Systems | Signal Processing | Scientific Computing"
   avatar:
 
   email: contact@abwembya.com
@@ -46,7 +46,7 @@ sidebar:
 career-profile:
   title: Professional Profile
   summary: |
-    Experimental physicist specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, sensor fusion, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
+    Experimental physicist with a PhD from Radboud University, awarded on **6 October 2026**, specialising in **distributed sensor systems, RF signal processing, precision timing, calibration, sensor fusion, interferometry, and uncertainty-aware scientific computing**. I build reproducible Python and C++ workflows that turn complex measurements into reliable physical insight.
 
     My doctoral research within the international Pierre Auger Collaboration advanced radio-interferometric reconstruction of very inclined cosmic-ray air showers through timing validation, antenna-response studies, simulation, statistics, and array-wide quality control. The same core methods extend naturally to radar, remote sensing, Earth observation, and other distributed sensing systems.
 
@@ -60,6 +60,8 @@ education:
       time: 2021 – 2026
       details: |
         Thesis: *In Phase With the Cosmos: Mass Composition of Cosmic Rays via Radio Interferometry*. PhD awarded on **6 October 2026**. [Read the thesis in the Radboud Repository](https://hdl.handle.net/2066/334492). Research conducted within the Pierre Auger Collaboration and the Nikhef research programme.
+
+        Defence records: [Radboud University](https://www.ru.nl/en/about-us/events/in-phase-with-the-cosmos) · [Nikhef](https://www.nikhef.nl/en/news-and-events/events/phd-defense-anthony-bwembya-ru/).
     - degree: MSc, Nuclear Physics and Technology
       university: National Research Nuclear University MEPhI, Russia
       time: 2018 – 2021
@@ -74,7 +76,7 @@ education:
 experiences:
   title: Selected Experience
   info:
-    - role: Sensor Development, Calibration and Intelligent Data Processing
+    - role: PhD Researcher, Experimental Detector Physics and Radio Interferometry
       time: 2021 – 2026
       company: Radboud University · Pierre Auger Collaboration
       details: |
