@@ -17,5 +17,18 @@ compress_html:
     envs: development
 
 port: 4000
-host: 0.0.0.0
-safe: false
+host: 127.0.0.1
+safe: true
+
+# Build tooling and audit material must not become public site assets.
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - docker-compose.yml
+  - vendor
+  - scripts
+  - tests
+  - docs
+  - SECURITY.md

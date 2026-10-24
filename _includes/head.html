@@ -1,19 +1,9 @@
 <head>
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta charset="utf-8">
-  <script>
-    (function () {
-      var dark = false;
-      try {
-        var savedTheme = localStorage.getItem('cv-theme');
-        dark = savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      } catch (error) {
-        dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      }
-      if (dark) document.documentElement.classList.add('dark');
-      document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
-    })();
-  </script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; script-src 'self'{% if site.analytics %} https://www.googletagmanager.com{% endif %}{% if site.data.data.sidebar.about %} https://buttons.github.io{% endif %}; style-src 'self' 'unsafe-inline'; img-src 'self' data:{% if site.analytics %} https://www.google-analytics.com https://*.google-analytics.com{% endif %}; font-src 'self'; connect-src 'self'{% if site.analytics %} https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com{% endif %}; frame-src 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script src="{{ site.baseurl }}/assets/js/theme-init.js"></script>
   {% if site.chrome_mobile_color %}<meta name="theme-color" content="{{ site.chrome_mobile_color }}">{% endif %}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

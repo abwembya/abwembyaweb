@@ -1,4 +1,7 @@
 (function () {
+  const printButton = document.getElementById('printCV');
+  if (printButton) printButton.addEventListener('click', function () { window.print(); });
+
   const root = document.documentElement;
   const nav = document.getElementById('site-navigation');
   const navToggle = document.querySelector('.nav-toggle');
