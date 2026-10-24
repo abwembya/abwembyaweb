@@ -1,9 +1,3 @@
-<!-- Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.analytics }}');
-</script>
+<!-- Analytics (only included when site.analytics is configured). -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics | url_encode }}"></script>
+<script src="{{ site.baseurl }}/assets/js/analytics.js" data-analytics-id="{{ site.analytics | escape }}"></script>

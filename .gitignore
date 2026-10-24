@@ -3,3 +3,11 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+
+.bundle/
+vendor/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
