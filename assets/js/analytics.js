@@ -48,6 +48,7 @@
       saveChoice(choice);
       notice.remove();
       if (choice === 'accepted') startAnalytics();
+      else if (enabled) window.location.reload();
     }
 
     const decline = document.createElement('button');
