@@ -32,3 +32,6 @@ exclude:
   - tests
   - docs
   - SECURITY.md
+
+# GA4 is loaded only after explicit visitor consent.
+analytics: "G-GPFPYE8LQ3"
