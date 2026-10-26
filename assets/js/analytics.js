@@ -38,8 +38,17 @@
     notice.setAttribute('role', 'region');
     notice.setAttribute('aria-label', 'Analytics privacy choices');
 
+    const heading = document.createElement('p');
+    const headingStrong = document.createElement('strong');
+    headingStrong.textContent = 'Don\u2019t Panic! \ud83d\ude80';
+    const source = document.createElement('em');
+    source.textContent = 'The Hitchhiker\u2019s Guide to the Galaxy';
+    heading.appendChild(headingStrong);
+    heading.appendChild(document.createTextNode(' \u2014 '));
+    heading.appendChild(source);
+
     const copy = document.createElement('p');
-    copy.textContent = 'May I use Google Analytics to understand visits and improve this website? Analytics is optional and stays off unless you accept.';
+    copy.textContent = 'Welcome to my little corner of the universe! I use optional Google Analytics to understand how people explore my science and research\u2014not for advertising. Your privacy matters, and you\u2019re always in control.';
 
     const actions = document.createElement('div');
     actions.className = 'analytics-consent-actions';
@@ -53,16 +62,17 @@
 
     const decline = document.createElement('button');
     decline.type = 'button';
-    decline.textContent = 'Reject analytics';
+    decline.textContent = 'No thanks';
     decline.addEventListener('click', function () { choose('rejected'); });
 
     const accept = document.createElement('button');
     accept.type = 'button';
-    accept.textContent = 'Accept analytics';
+    accept.textContent = 'Sounds good!';
     accept.addEventListener('click', function () { choose('accepted'); });
 
     actions.appendChild(decline);
     actions.appendChild(accept);
+    notice.appendChild(heading);
     notice.appendChild(copy);
     notice.appendChild(actions);
     document.body.appendChild(notice);
