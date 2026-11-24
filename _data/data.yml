@@ -145,6 +145,9 @@ skills:
     - title: Sensors, Detectors & Instrumentation
       icon: satellite-dish
       items: [Antenna arrays, Detector calibration, LiDAR, Fluorescence telescopes, PMTs, Radiation detectors, VNA / AWG / DAC, RF/DC chains, DAQ systems, Laboratory and field validation]
+    - title: RF Test & Laboratory Instrumentation
+      icon: microchip
+      items: [Spectrum analysers, RF signal generators, Digital oscilloscopes, Automated laboratory test setups, Climate chambers, RF measurement and characterisation, Hardware validation]
     - title: Modelling, Statistics & Quality
       icon: chart-line
       items: [Uncertainty propagation, Statistical inference, CORSIKA / CoREAS, GALPROP, Model-to-data comparison, Simulation-based validation, Automated quality control, Sensor diagnostics, Reproducible workflows]
