@@ -8,7 +8,7 @@ gem "kramdown-parser-gfm", "~> 1.1"
 gem "webrick", ">= 1.9.1", "< 2"
 
 # Security floors for dependencies used by the local build.
-gem "addressable", ">= 2.9.0", "< 3"
+gem "addressable", ">= 2.9.1", "< 3"
 gem "concurrent-ruby", ">= 1.3.7", "< 2"
 gem "rexml", ">= 3.4.2", "< 4"
 
